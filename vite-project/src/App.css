@@ -24,5 +24,20 @@ nav ul li a:hover {
   background: var(--boxColor);
 }
 
+.category{
+  display: flex;
+  gap: 10px;
+}
+
+.category button{
+  align-self: center;
+}
+
+.category button:hover{
+  background: rgba(245, 85, 85, 0.5);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 
 

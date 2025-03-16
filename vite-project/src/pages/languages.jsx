@@ -4,13 +4,22 @@ const Languages = () => {
     <h1>Languages</h1>
     <button>switch mode</button>
     </div>
+
+    <div className="category">
+        <h2>Category:</h2>
+        <button>High-Level Language</button>
+        <button>Low-Level Language</button>
+        <button>Scripting/Styling Language</button>
+        <button>Special Language</button>
+
+    </div>
     
     <div className="language" style={{ "--boxColor": "rgb(0, 255, 187)" }}>
         <h2>Python</h2>
         <h4>description</h4>
         <button>learn more</button>
     </div>
-    <div className="language" style={{ "--boxColor": "rgb(251, 197, 5)" }}>
+    <div className="language" style={{ "--boxColor": "rgb(251, 173, 5)" }}>
         <h2>Java</h2>
         <h4>description</h4>
         <button>learn more</button>
@@ -20,7 +29,7 @@ const Languages = () => {
         <h4>description</h4>
         <button>learn more</button>
     </div>
-    <div className="language" style={{ "--boxColor": "rgb(23, 10, 167)" }}>
+    <div className="language" style={{ "--boxColor": "rgb(47, 34, 189)" }}>
         <h2>C</h2>
         <h4>description</h4>
         <button>learn more</button>
