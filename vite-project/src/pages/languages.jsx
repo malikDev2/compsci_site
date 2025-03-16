@@ -24,6 +24,16 @@ const Languages = () => {
         <h4>description</h4>
         <button>learn more</button>
     </div>
+    <div className="language" style={{ "--boxColor": "rgb(251, 124, 5)" }}>
+        <h2>HTML</h2>
+        <h4>description</h4>
+        <button>learn more</button>
+    </div>
+    <div className="language" style={{ "--boxColor": "rgb(5, 124, 251)" }}>
+        <h2>CSS</h2>
+        <h4>description</h4>
+        <button>learn more</button>
+    </div>
     <div className="language" style={{ "--boxColor": "rgb(43, 227, 27)" }}>
         <h2>Javascript</h2>
         <h4>description</h4>
@@ -41,6 +51,11 @@ const Languages = () => {
     </div>
     <div className="language" style={{ "--boxColor": "rgb(227, 34, 27)" }}>
         <h2>Assembly</h2>
+        <h4>description</h4>
+        <button>learn more</button>
+    </div>
+    <div className="language" style={{ "--boxColor": "rgb(34, 20, 232)" }}>
+        <h2>JSX</h2>
         <h4>description</h4>
         <button>learn more</button>
     </div>
