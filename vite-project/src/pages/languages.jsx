@@ -20,6 +20,21 @@ const Languages = () => {
         <h4>description</h4>
         <button>learn more</button>
     </div>
+    <div className="language" style={{ "--boxColor": "rgb(23, 10, 167)" }}>
+        <h2>C</h2>
+        <h4>description</h4>
+        <button>learn more</button>
+    </div>
+    <div className="language" style={{ "--boxColor": "rgb(150, 27, 227)" }}>
+        <h2>C#</h2>
+        <h4>description</h4>
+        <button>learn more</button>
+    </div>
+    <div className="language" style={{ "--boxColor": "rgb(227, 34, 27)" }}>
+        <h2>Assembly</h2>
+        <h4>description</h4>
+        <button>learn more</button>
+    </div>
     </>);
 }
 
