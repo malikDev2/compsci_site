@@ -1,65 +1,49 @@
+import React, { useState } from 'react';
+
 const Languages = () => {
-    return(<>
-    <div>
-    <h1>Languages</h1>
-    <button>switch mode</button>
-    </div>
+    const [selectedCategory, setSelectedCategory] = useState('all');
 
-    <div className="category">
-        <h2>Category:</h2>
-        <button>High-Level Language</button>
-        <button>Low-Level Language</button>
-        <button>Scripting/Styling Language</button>
-        <button>Special Language</button>
+    const languages = [
+        { name: 'Python', category: 'high-level', color: 'rgb(0, 255, 187)' },
+        { name: 'Java', category: 'high-level', color: 'rgb(251, 173, 5)' },
+        { name: 'HTML', category: 'scripting-styling', color: 'rgb(251, 124, 5)' },
+        { name: 'CSS', category: 'scripting-styling', color: 'rgb(5, 124, 251)' },
+        { name: 'Javascript', category: 'high-level', color: 'rgb(43, 227, 27)' },
+        { name: 'C', category: 'high-level', color: 'rgb(47, 34, 189)' },
+        { name: 'C#', category: 'high-level', color: 'rgb(150, 27, 227)' },
+        { name: 'Assembly', category: 'low-level', color: 'rgb(227, 34, 27)' },
+        { name: 'JSX', category: 'special', color: 'rgb(34, 20, 232)' },
+    ];
 
-    </div>
-    
-    <div className="language" style={{ "--boxColor": "rgb(0, 255, 187)" }}>
-        <h2>Python</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(251, 173, 5)" }}>
-        <h2>Java</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(251, 124, 5)" }}>
-        <h2>HTML</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(5, 124, 251)" }}>
-        <h2>CSS</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(43, 227, 27)" }}>
-        <h2>Javascript</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(47, 34, 189)" }}>
-        <h2>C</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(150, 27, 227)" }}>
-        <h2>C#</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(227, 34, 27)" }}>
-        <h2>Assembly</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    <div className="language" style={{ "--boxColor": "rgb(34, 20, 232)" }}>
-        <h2>JSX</h2>
-        <h4>description</h4>
-        <button>learn more</button>
-    </div>
-    </>);
+    const filteredLanguages = selectedCategory === 'all' 
+        ? languages 
+        : languages.filter(lang => lang.category === selectedCategory);
+
+    return (
+        <>
+            <div>
+                <h1>Languages</h1>
+                <button>switch mode</button>
+            </div>
+
+            <div className="category">
+                <h2>Category:</h2>
+                <button onClick={() => setSelectedCategory('all')}>All</button>
+                <button onClick={() => setSelectedCategory('high-level')}>High-Level Language</button>
+                <button onClick={() => setSelectedCategory('low-level')}>Low-Level Language</button>
+                <button onClick={() => setSelectedCategory('scripting-styling')}>Scripting/Styling Language</button>
+                <button onClick={() => setSelectedCategory('special')}>Special Language</button>
+            </div>
+
+            {filteredLanguages.map((lang, index) => (
+                <div key={index} className="language" style={{ "--boxColor": lang.color }}>
+                    <h2>{lang.name}</h2>
+                    <h4>description</h4>
+                    <button>learn more</button>
+                </div>
+            ))}
+        </>
+    );
 }
 
 export default Languages;
