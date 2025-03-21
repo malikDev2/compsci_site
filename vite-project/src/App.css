@@ -40,6 +40,9 @@ nav ul li a:hover {
 }
 
 .mathcourse{
+  border: 3px solid black;
+  margin-bottom: 10px;
+  border-radius: 3px;
   
 }
 
