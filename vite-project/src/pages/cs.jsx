@@ -6,6 +6,9 @@ const Cs = () => {
     const courses = [
         {name: 'AP Computer Science A (Intro to Computer Science)', type: 'programming', color: 'rgb(77, 208, 255)', body: 'Yeah'},
         {name: 'AP Computer Science Principales', type: 'programming', color: 'rgb(55, 251, 37)', body: ''},
+        {name: 'Data Structures', type: 'programming', color: 'rgb(248, 62, 29)', body: 'Data structures...'},
+        {name: 'Computer Architecture', type: 'programming', color: 'rgb(23, 93, 204)', body: 'C and Assembly and Memory'},
+        {name: 'Intro to Discrete Structures I', type: 'theory', color: 'rgb(255, 213, 77)', body: ''}
     ];
 
     const courseType = selectedType === 'all'
