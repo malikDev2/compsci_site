@@ -5,11 +5,13 @@ const Tools = () => {
     <h1>Tools</h1>
     <div>
         <h2>Select:</h2>
-        <Link to="/tools/frameworks">
+        <Link to="frameworks">
             <button>Frameworks</button>
         </Link>
-        <button>Development Tools</button>
-        <button>Guides/Tutorials</button>
+        <Link to="devtools">
+            <button>Development Tools</button>
+        </Link>
+        <button>Resources</button>
     </div>
     </>);
 }
