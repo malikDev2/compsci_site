@@ -6,13 +6,13 @@ const Tools = () => {
     <div>
         <h2>Select:</h2>
         <Link to="frameworks">
-            <button>Frameworks</button>
+            <button>Frameworks/Environments</button>
         </Link>
         <Link to="devtools">
             <button>Development Tools</button>
         </Link>
         <Link to="resources">
-        <button>Resources</button>
+            <button>Resources</button>
         </Link>
         
     </div>
