@@ -11,7 +11,10 @@ const Tools = () => {
         <Link to="devtools">
             <button>Development Tools</button>
         </Link>
+        <Link to="resources">
         <button>Resources</button>
+        </Link>
+        
     </div>
     </>);
 }

@@ -8,6 +8,7 @@ import Math from "./pages/math";
 import Cs from "./pages/cs";
 import Frameworks from "./pages/frameworks";
 import Devtools from "./pages/devtools";
+import Resources from "./pages/resources"
 import './App.css'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/tools" element={<Tools />}/>
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
         <Route path="/tools/devtools" element={<Devtools/>}/>
+        <Route path="/tools/resources" element={<Resources/>}/>
       </Routes>
     </BrowserRouter>
     
