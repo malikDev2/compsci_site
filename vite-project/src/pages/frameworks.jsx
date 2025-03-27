@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Frameworks = () =>{
     return(<>
     <h1>Frameworks</h1>
-    <div>
-        <h2>Type:</h2>
+    <div className="category">
+        <h2>Category:</h2>
         <button>Frontend</button>
         <button>Backend</button>
         <button>Data</button>

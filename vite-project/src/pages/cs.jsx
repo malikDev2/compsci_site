@@ -17,7 +17,7 @@ const Cs = () => {
     
     return(<>
     <h1>Cs</h1>
-    <div>
+    <div className="category">
         <h3>Category:</h3>
         <button onClick={() => setSelectedType('all')}>All</button>
         <button onClick={() => setSelectedType('programming')}>Programming</button>
