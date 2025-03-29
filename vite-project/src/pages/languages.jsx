@@ -6,9 +6,9 @@ const Languages = () => {
     const languages = [
         { name: 'Python', category: 'high-level', color: 'rgb(0, 255, 187)', body: 'Very popular high level language with close-to-english syntax. Used heavily within Data Science/Analysis, Machine Learning, and Backend Development. Vast collection of frameworks and libraries to choose from.' },
         { name: 'Java', category: 'high-level', color: 'rgb(251, 173, 5)', body: 'High level object-oriented programming language. Most common lanaguage for highschool/university courses. Largely used today within Backend and Andriod development.' },
-        { name: 'HTML', category: 'scripting-styling', color: 'rgb(251, 124, 5)' },
+        { name: 'HTML', category: 'scripting-styling', color: 'rgb(251, 124, 5)', body: 'Most popular scripting language. Used to create most web pages. Often paired with CSS and Javascript.'},
         { name: 'CSS', category: 'scripting-styling', color: 'rgb(5, 124, 251)' },
-        { name: 'Javascript', category: 'high-level', color: 'rgb(43, 227, 27)' },
+        { name: 'Javascript', category: 'high-level', color: 'rgb(43, 227, 27)', body: 'Extremley popular high level language used for webpage interactivity. Known for its extensive, continuiouslly growing collection of libraries which allow Backend and Fullstack development.' },
         { name: 'C', category: 'high-level', color: 'rgb(47, 34, 189)' },
         { name: 'C#', category: 'high-level', color: 'rgb(150, 27, 227)' },
         { name: 'Assembly', category: 'low-level', color: 'rgb(227, 34, 27)' },
