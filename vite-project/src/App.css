@@ -17,6 +17,31 @@ nav ul li a:hover {
   color: #007bff;
 }
 
+h1{
+  text-align: center;
+}
+
+.homediv{
+  background: rgb(132, 129, 129);
+  width: 500px;
+  border-radius: 10px;
+}
+
+.homediv button{
+  cursor: pointer;
+}
+
+.homediv:hover{
+  background: rgb(204, 22, 22);
+  transition: 4s;
+}
+
+.home{
+  display: flex;
+  gap: 50px;
+  text-align: center;
+}
+
 .language{
   margin-bottom: 5px;
   padding: 5px;
