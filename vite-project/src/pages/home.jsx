@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Home = () =>{
     return <>
-    <h1>Home page for code site</h1>
+    <h1>Computer science catalog</h1>
     <div className="home">
         <div className="homediv">
             <h1>Courses</h1>
