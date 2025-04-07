@@ -11,7 +11,7 @@ const Tools = () => {
             </div>
         </Link>
         <Link to="devtools" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <div className="homediv" style={{backgroundColor: 'rgb(12,20,120)'}}>
+            <div className="homediv" style={{backgroundColor: 'rgb(136, 142, 221)'}}>
                 <h1>Devtools</h1>
                 <h4>dev</h4>
             </div>

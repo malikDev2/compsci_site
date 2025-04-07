@@ -29,7 +29,6 @@ const Cs = () => {
             <h2>{course.name}</h2>
             <h4>{course.body}</h4>
             <button>learn more</button>
-
         </div>
     ))}
    
