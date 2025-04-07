@@ -49,7 +49,7 @@ h1{
 }
 
 .homediv:hover{
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255) !important;
   transition: 2s;
   padding: 10px;
   padding-top: 0px;

@@ -5,7 +5,7 @@ const Tools = () => {
     <h1>Tools</h1>
     <div className="home">
         <Link to="frameworks" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <div className="homediv">
+            <div className="homediv" style={{backgroundColor: 'rgb(247, 225, 31)'}}>
                 <h1>Frameworks</h1>
                 <h4>Frames</h4>
             </div>
@@ -17,7 +17,7 @@ const Tools = () => {
             </div>
         </Link>
         <Link to="resources" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <div className="homediv">
+            <div className="homediv" style={{backgroundColor: 'rgb(96, 247, 31)'}}>
                 <h1>Resources</h1>
                 <h4>helpful</h4>
             </div>

@@ -5,7 +5,7 @@ const Courses = () => {
     <h1>Courses</h1>
     <div className="home">
         <Link to="/courses/math" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <div className="homediv" style={{backgroundColor: 'rgb(249, 101, 88)'}}>
+            <div className="homediv" style={{backgroundColor: 'rgb(207, 255, 51)'}}>
                 <h1>Math</h1>
                 <h4>Mathematics</h4>
             </div>
