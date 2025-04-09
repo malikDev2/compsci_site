@@ -11,35 +11,40 @@ const Frameworks = () => {
             category: 'frontend', 
             language: 'JavaScript',
             color: 'rgb(5, 109, 255)', 
-            body: 'A declarative JavaScript library for building component-based UIs, developed by Meta. Dominates modern frontend development due to its virtual DOM and ecosystem (e.g., React Hooks, Redux).' 
+            body: 'A declarative JavaScript library for building component-based UIs, developed by Meta. Dominates modern frontend development due to its virtual DOM and ecosystem (e.g., React Hooks, Redux).',
+            path: 'react'
         },
         { 
             name: 'Node.js', 
             category: 'backend', 
             language: 'JavaScript',
             color: 'rgb(67, 160, 71)', 
-            body: 'A JavaScript runtime built on Chrome’s V8 engine, enabling server-side execution. Widely adopted for scalable network applications and as the foundation for tools like Express.js.' 
+            body: 'A JavaScript runtime built on Chrome’s V8 engine, enabling server-side execution. Widely adopted for scalable network applications and as the foundation for tools like Express.js.' ,
+            path: 'node'
         },
         { 
             name: 'Express.js', 
             category: 'backend', 
             language: 'JavaScript',
             color: 'rgba(145, 141, 141, 0.4)', 
-            body: 'A minimal, unopinionated Node.js framework for building APIs and web servers. The de facto standard for backend JavaScript due to its middleware architecture and simplicity.' 
+            body: 'A minimal, unopinionated Node.js framework for building APIs and web servers. The de facto standard for backend JavaScript due to its middleware architecture and simplicity.',
+            path: 'express'
         },
         { 
             name: 'Next.js', 
             category: 'fullstack', 
             language: 'JavaScript',
             color: 'rgba(0, 0, 0, 0.9)', 
-            body: 'A React-based framework supporting server-side rendering (SSR) and static site generation (SSG). Developed by Vercel, it simplifies production-ready React applications with built-in routing and optimizations.' 
+            body: 'A React-based framework supporting server-side rendering (SSR) and static site generation (SSG). Developed by Vercel, it simplifies production-ready React applications with built-in routing and optimizations.',
+            path: 'next'
         },
         { 
             name: 'Tkinter', 
             category: 'GUI', 
             language: 'Python',
             color: 'rgb(74, 137, 255)', 
-            body: 'Python’s standard GUI toolkit, providing bindings to the Tk widget library. Primarily used for simple desktop applications due to its simplicity and bundled availability with Python.' 
+            body: 'Python’s standard GUI toolkit, providing bindings to the Tk widget library. Primarily used for simple desktop applications due to its simplicity and bundled availability with Python.',
+            path: 'tkinter' 
         },
     ];
 
@@ -71,11 +76,12 @@ const Frameworks = () => {
             </div>
 
             {framfilter.map((frame, index) => (
-                <div key={index} className="language" style={{ "--boxColor": frame.color }}>
+                <Link to={frame.path} key={index} className="linkdiv">
+                <div className="language" style={{ "--boxColor": frame.color }}>
                     <h2>{frame.name}</h2>
                     <h4>{frame.body}</h4>
-                    <button>learn more</button>
                 </div>
+                </Link>
             ))}
             <Link to="/tools">
                 <button>Back</button>

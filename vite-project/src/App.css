@@ -106,6 +106,14 @@ h1{
   margin-bottom: 10px;
 }
 
+.linkdiv {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
+
 
 
 
