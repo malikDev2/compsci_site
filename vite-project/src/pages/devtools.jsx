@@ -9,10 +9,51 @@ const Devtools = () =>{
             name: 'Visual Studio Code',
             category: 'editor',
             color: 'rgb(24, 113, 203)',
-            body: 'good code editor',
+            body: 'A lightweight but powerful code editor from Microsoft.',
             path: 'vscode'
         },
-        
+        {
+            name: 'Git',
+            category: 'vc',
+            color: 'rgb(241, 106, 101)',
+            body: 'Distributed version control system for tracking code changes.',
+            path: 'git'
+        },
+        {
+            name: 'GitHub',
+            category: 'vc',
+            color: 'rgb(36, 41, 46)',
+            body: 'Cloud platform for Git repositories and developer collaboration.',
+            path: 'github'
+        },
+        {
+            name: 'ChatGPT',
+            category: 'ai',
+            color: 'rgb(16, 163, 127)',
+            body: 'AI chatbot that understands and generates human-like text.',
+            path: 'chatgpt'
+        },
+        {
+            name: 'DeepSeek',
+            category: 'ai',
+            color: 'rgb(0, 102, 204)',
+            body: 'Advanced AI assistant for coding and general knowledge.',
+            path: 'deepseek'
+        },
+        {
+            name: 'Replit',
+            category: 'editor',
+            color: 'rgb(242, 101, 52)',
+            body: 'Online IDE that lets you code directly in your browser.',
+            path: 'replit'
+        },
+        {
+            name: 'WordPress',
+            category: 'editor',
+            color: 'rgb(33, 117, 155)',
+            body: 'Popular platform for building websites and blogs.',
+            path: 'wordpress'
+        }
     ];
 
     const toolfilter = selectedCategory === 'all' 
