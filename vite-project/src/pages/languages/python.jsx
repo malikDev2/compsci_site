@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 
 const Python = () => {
+// Section logic
   const [expandedSections, setExpandedSections] = useState({
     description: false,
     tools: false,

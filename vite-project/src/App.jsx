@@ -9,7 +9,7 @@ import Cs from "./pages/cs";
 import Frameworks from "./pages/frameworks";
 import Devtools from "./pages/devtools";
 import Resources from "./pages/resources"
-import Python from "./pages/courses/python"
+import Python from "./languages/courses/python"
 import './App.css'
 
 function App() {
