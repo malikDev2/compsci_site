@@ -112,9 +112,68 @@ h1{
   display: block;
 }
 
+/* Python.css */
 
+.language-div {
+  margin: 20px 0;
+}
 
+.section {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
 
+.section:last-child {
+  border-bottom: none;
+}
 
+.section-header-container {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px 0;
+  margin: 0;
+  color: #333;
+  transition: color 0.2s ease;
+}
 
+.section-header-container:hover {
+  color: #007bff;
+}
 
+.section-title {
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.arrow-icon {
+  position: absolute;
+  right: 0;
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+.section-content {
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 80%;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
