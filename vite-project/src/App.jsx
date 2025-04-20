@@ -9,7 +9,8 @@ import Cs from "./pages/cs";
 import Frameworks from "./pages/frameworks";
 import Devtools from "./pages/devtools";
 import Resources from "./pages/resources"
-import Python from "./languages/courses/python"
+import Python from "./pages/languages/python"
+import Calculus from "./pages/courses/calculus"
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/languages/python" element={<Python/>}/>
         <Route path="/courses" element={<Courses />}/>
         <Route path="/courses/math" element={<Math/>}/>
+        <Route path="/courses/math/calc1" element={<Calculus/>}/>
         <Route path="/courses/cs" element={<Cs/>}/>
         <Route path="/tools" element={<Tools />}/>
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
