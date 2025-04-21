@@ -4,9 +4,11 @@ const Calculus = () => {
   // Section logic
   const [expandedSections, setExpandedSections] = useState({
     description: false,
+    units: false,
     unit1: false,
     unit2: false,
-    unit3: false
+    unit3: false,
+    definitions: false
   });
 
   const toggleSection = (section) => {
@@ -28,12 +30,9 @@ const Calculus = () => {
             </span>
           </div>
           {expandedSections.description && (
-            <h4 className="section-content">
-              Calculus is a branch of mathematics that studies continuous change. It has two major branches: 
-              differential calculus (concerning rates of change and slopes of curves) and integral calculus 
-              (concerning accumulation of quantities and areas under curves). These two branches are related 
-              to each other by the fundamental theorem of calculus.
-            </h4>
+            <div className="section-content">
+              {/* Content would go here */}
+            </div>
           )}
         </div>
 
@@ -55,10 +54,12 @@ const Calculus = () => {
                   </span>
                 </div>
                 {expandedSections.unit1 && (
-                  <h4 className="subsection-content">
-                    This unit covers the concept of limits, one-sided limits, infinite limits, 
-                    continuity, and the Intermediate Value Theorem.
-                  </h4>
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Sub-topic</h5>
+                    <p>More details about this specific aspect</p>
+                  </div>
                 )}
               </div>
 
@@ -71,10 +72,14 @@ const Calculus = () => {
                   </span>
                 </div>
                 {expandedSections.unit2 && (
-                  <h4 className="subsection-content">
-                    This unit introduces derivatives, differentiation rules, chain rule, 
-                    implicit differentiation, and applications of derivatives.
-                  </h4>
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <ul>
+                      <li>Key point 1</li>
+                      <li>Key point 2</li>
+                    </ul>
+                  </div>
                 )}
               </div>
 
@@ -87,12 +92,34 @@ const Calculus = () => {
                   </span>
                 </div>
                 {expandedSections.unit3 && (
-                  <h4 className="subsection-content">
-                    This unit covers antiderivatives, definite integrals, 
-                    the Fundamental Theorem of Calculus, and integration techniques.
-                  </h4>
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
                 )}
               </div>
+            </div>
+          )}
+        </div>
+
+        {/* Definitions Section */}
+        <div className="section">
+          <div className="section-header-container" onClick={() => toggleSection('definitions')}>
+            <h2 className="section-title">Definitions</h2>
+            <span className="arrow-icon">
+              {expandedSections.definitions ? '▼' : '▶'}
+            </span>
+          </div>
+          {expandedSections.definitions && (
+            <div className="section-content">
+              <dl>
+                <dt>Limit</dt>
+                <dd>Definition would go here</dd>
+                <dt>Derivative</dt>
+                <dd>Definition would go here</dd>
+              </dl>
             </div>
           )}
         </div>
