@@ -11,6 +11,10 @@ import Devtools from "./pages/devtools";
 import Resources from "./pages/resources"
 import Python from "./pages/languages/python"
 import Calculus from "./pages/courses/calculus"
+import Calculus2 from "./pages/courses/calculus2"
+import Linear from "./pages/courses/linear"
+
+
 import './App.css'
 
 function App() {
@@ -26,6 +30,8 @@ function App() {
         <Route path="/courses" element={<Courses />}/>
         <Route path="/courses/math" element={<Math/>}/>
         <Route path="/courses/math/calc1" element={<Calculus/>}/>
+        <Route path="/courses/math/calc2" element={<Calculus2/>}/>
+        <Route path="/courses/math/linear" element={<Linear/>}/>
         <Route path="/courses/cs" element={<Cs/>}/>
         <Route path="/tools" element={<Tools />}/>
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
