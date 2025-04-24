@@ -9,14 +9,14 @@ const Cs = () => {
             type: 'programming', 
             color: 'rgb(77, 208, 255)', 
             body: 'Introductory comp-sci course taught in Java. Introduces students to basic data types, arrays, loops, user input, and sorts.',
-            path: 'ap-computer-science-a'
+            path: 'intro-compsci'
         },
         {
             name: 'AP Computer Science Principales', 
             type: 'programming', 
             color: 'rgb(55, 251, 37)', 
             body: 'Highschool course that teaches basic programming through psuedo-code and python. Also covers topics such as internet safety and cybersecurity to give students a better understanding of computing.',
-            path: 'ap-computer-science-principles'
+            path: 'ap-csp'
         },
         {
             name: 'Data Structures', 
@@ -37,7 +37,7 @@ const Cs = () => {
             type: 'theory', 
             color: 'rgb(255, 213, 77)', 
             body: 'Non-programming, logic based couse. Topics include logic operations, set notation, proofs, and state machines.',
-            path: 'discrete-structures'
+            path: 'discrete'
         }
     ];
 

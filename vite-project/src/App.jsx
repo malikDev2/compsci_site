@@ -13,6 +13,12 @@ import Python from "./pages/languages/python"
 import Calculus from "./pages/courses/calculus"
 import Calculus2 from "./pages/courses/calculus2"
 import Linear from "./pages/courses/linear"
+import Intro from "./pages/courses/intro"
+import Csp from "./pages/courses/csp"
+import DataStruct from "./pages/courses/datastruct"
+import CompArc from "./pages/courses/comparc";
+import DiscreteI from "./pages/courses/discrete1";
+
 
 
 import './App.css'
@@ -33,6 +39,11 @@ function App() {
         <Route path="/courses/math/calc2" element={<Calculus2/>}/>
         <Route path="/courses/math/linear" element={<Linear/>}/>
         <Route path="/courses/cs" element={<Cs/>}/>
+        <Route path="/courses/cs/intro-compsci" element={<Intro/>}/>
+        <Route path="/courses/cs/ap-csp" element={<Csp/>}/>
+        <Route path="/courses/cs/data-structures" element={<DataStruct/>}/>
+        <Route path="/courses/cs/computer-architecture" element={<CompArc/>}/>
+        <Route path="/courses/cs/discrete" element={<DiscreteI/>}/>
         <Route path="/tools" element={<Tools />}/>
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
         <Route path="/tools/devtools" element={<Devtools/>}/>
