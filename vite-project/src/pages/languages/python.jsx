@@ -1,18 +1,32 @@
 import React, { useState } from 'react';
 
-
 const Python = () => {
-// Section logic
+  // Main section logic
   const [expandedSections, setExpandedSections] = useState({
     description: false,
     tools: false,
     syntax: false
   });
 
+  // Subsection logic
+  const [expandedSubsections, setExpandedSubsections] = useState({
+    syntaxA: false,
+    syntaxB: false,
+    toolsA: false,
+    toolsB: false
+  });
+
   const toggleSection = (section) => {
     setExpandedSections(prev => ({
       ...prev,
       [section]: !prev[section]
+    }));
+  };
+
+  const toggleSubsection = (subsection) => {
+    setExpandedSubsections(prev => ({
+      ...prev,
+      [subsection]: !prev[subsection]
     }));
   };
 
@@ -40,7 +54,34 @@ const Python = () => {
             </span>
           </div>
           {expandedSections.syntax && (
-            <h4 className="section-content">body</h4>
+            <div className="section-content">
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSubsection('syntaxA')}>
+                  <h3 className="subsection-title">a</h3>
+                  <span className="arrow-icon">
+                    {expandedSubsections.syntaxA ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSubsections.syntaxA && (
+                  <div className="subsection-content">
+                    {/* Content for syntax section a */}
+                  </div>
+                )}
+              </div>
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSubsection('syntaxB')}>
+                  <h3 className="subsection-title">b</h3>
+                  <span className="arrow-icon">
+                    {expandedSubsections.syntaxB ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSubsections.syntaxB && (
+                  <div className="subsection-content">
+                    {/* Content for syntax section b */}
+                  </div>
+                )}
+              </div>
+            </div>
           )}
         </div>
 
@@ -52,11 +93,36 @@ const Python = () => {
             </span>
           </div>
           {expandedSections.tools && (
-            <h4 className="section-content">body</h4>
+            <div className="section-content">
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSubsection('toolsA')}>
+                  <h3 className="subsection-title">a</h3>
+                  <span className="arrow-icon">
+                    {expandedSubsections.toolsA ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSubsections.toolsA && (
+                  <div className="subsection-content">
+                    {/* Content for tools section a */}
+                  </div>
+                )}
+              </div>
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSubsection('toolsB')}>
+                  <h3 className="subsection-title">b</h3>
+                  <span className="arrow-icon">
+                    {expandedSubsections.toolsB ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSubsections.toolsB && (
+                  <div className="subsection-content">
+                    {/* Content for tools section b */}
+                  </div>
+                )}
+              </div>
+            </div>
           )}
         </div>
-
-        
       </div>
     </>
   );
