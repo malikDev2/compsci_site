@@ -16,6 +16,13 @@ const Courses = () => {
                 <h4>Programming & Logic based courses</h4>
             </div>
         </Link>
+        <Link to="ds" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <div className="homediv" style={{backgroundColor: 'rgb(226, 73, 17)'}}>
+                <h1>Data Science</h1>
+                <h4>Data related courses</h4>
+            </div>
+        </Link>
+        
     </div>
     
 

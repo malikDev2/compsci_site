@@ -6,6 +6,7 @@ import Courses from "./pages/courses";
 import Tools from "./pages/tools";
 import Math from "./pages/math";
 import Cs from "./pages/cs";
+import Ds from "./pages/ds";
 import Frameworks from "./pages/frameworks";
 import Devtools from "./pages/devtools";
 import Resources from "./pages/resources";
@@ -61,6 +62,7 @@ function App() {
         <Route path="/courses/cs/data-structures" element={<DataStruct/>}/>
         <Route path="/courses/cs/computer-architecture" element={<CompArc/>}/>
         <Route path="/courses/cs/discrete" element={<DiscreteI/>}/>
+        <Route path ="/courses/ds" element={<Ds/>}/>
         <Route path="/tools" element={<Tools />}/>
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
         <Route path="/tools/devtools" element={<Devtools/>}/>
