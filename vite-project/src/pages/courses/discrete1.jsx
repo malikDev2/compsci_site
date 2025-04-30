@@ -20,7 +20,7 @@ const DiscreteI = () => {
 
   return (
     <>
-      <h1>Calculus</h1>
+      <h1>Intro to Discrete Structures I</h1>
       <div className="language-div">
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('description')}>
@@ -48,7 +48,7 @@ const DiscreteI = () => {
               {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
-                  <h3 className="subsection-title">Unit 1: Limits and Continuity</h3>
+                  <h3 className="subsection-title">Unit 1: Propositional Logic</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit1 ? '▼' : '▶'}
                   </span>
@@ -66,7 +66,7 @@ const DiscreteI = () => {
               {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
-                  <h3 className="subsection-title">Unit 2: Differentiation</h3>
+                  <h3 className="subsection-title">Unit 2: Set theory</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit2 ? '▼' : '▶'}
                   </span>
@@ -86,7 +86,7 @@ const DiscreteI = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: Integration</h3>
+                  <h3 className="subsection-title">Unit 3: Proofs</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -100,6 +100,62 @@ const DiscreteI = () => {
                   </div>
                 )}
               </div>
+
+              {/* Unit 3 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                  <h3 className="subsection-title">Unit 4: Languages and Grammar</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit3 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit3 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 3 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                  <h3 className="subsection-title">Unit 5: State machines</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit3 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit3 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 3 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                  <h3 className="subsection-title">Unit 6: Number theorey</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit3 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit3 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              
             </div>
           )}
         </div>
