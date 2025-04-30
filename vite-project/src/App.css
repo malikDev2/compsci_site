@@ -181,3 +181,9 @@ h1{
     transform: translateY(0);
   }
 }
+
+.subsection-content{
+  background: rgba(255, 255, 255, 0.403);
+  padding: 3px;
+  border-radius: 5px;
+}

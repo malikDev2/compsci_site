@@ -8,6 +8,9 @@ const DiscreteI = () => {
     unit1: false,
     unit2: false,
     unit3: false,
+    unit4: false,
+    unit5: false,
+    unit6: false,
     definitions: false
   });
 
@@ -101,15 +104,15 @@ const DiscreteI = () => {
                 )}
               </div>
 
-              {/* Unit 3 */}
+              {/* Unit 4 */}
               <div className="subsection">
-                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
                   <h3 className="subsection-title">Unit 4: Languages and Grammar</h3>
                   <span className="arrow-icon">
-                    {expandedSections.unit3 ? '▼' : '▶'}
+                    {expandedSections.unit4 ? '▼' : '▶'}
                   </span>
                 </div>
-                {expandedSections.unit3 && (
+                {expandedSections.unit4 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
                     <p>Detailed explanation would go here</p>
@@ -119,15 +122,15 @@ const DiscreteI = () => {
                 )}
               </div>
 
-              {/* Unit 3 */}
+              {/* Unit 5 */}
               <div className="subsection">
-                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                <div className="subsection-header-container" onClick={() => toggleSection('unit5')}>
                   <h3 className="subsection-title">Unit 5: State machines</h3>
                   <span className="arrow-icon">
-                    {expandedSections.unit3 ? '▼' : '▶'}
+                    {expandedSections.unit5 ? '▼' : '▶'}
                   </span>
                 </div>
-                {expandedSections.unit3 && (
+                {expandedSections.unit5 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
                     <p>Detailed explanation would go here</p>
@@ -137,15 +140,15 @@ const DiscreteI = () => {
                 )}
               </div>
 
-              {/* Unit 3 */}
+              {/* Unit 6 */}
               <div className="subsection">
-                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                <div className="subsection-header-container" onClick={() => toggleSection('unit6')}>
                   <h3 className="subsection-title">Unit 6: Number theorey</h3>
                   <span className="arrow-icon">
-                    {expandedSections.unit3 ? '▼' : '▶'}
+                    {expandedSections.unit6 ? '▼' : '▶'}
                   </span>
                 </div>
-                {expandedSections.unit3 && (
+                {expandedSections.unit6 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
                     <p>Detailed explanation would go here</p>
