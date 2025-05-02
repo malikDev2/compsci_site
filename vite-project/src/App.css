@@ -2,24 +2,36 @@ html{
   background: linear-gradient(90deg, rgb(102, 20, 254), rgb(188, 43, 255))
 }
 
-nav ul {
+nav {
+  display: flex;
+  justify-content: center; /* Horizontally centers the nav */
+  width: 100%; /* Takes full width to allow proper centering */
+}
+
+nav > ul {
   list-style: none;
   display: flex;
   gap: 50px;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #000000;
   font-weight: bold;
+  padding: 5px 0; /* Vertical padding only */
+  white-space: nowrap; /* Prevents text wrapping */
 }
 
 nav ul li a:hover {
   color: #007bff;
 }
+
+
 
 h1{
   text-align: center;
@@ -150,6 +162,7 @@ h1{
 }
 
 .section-title {
+  color: black;
   margin: 0;
   text-align: center;
   flex-grow: 1;
