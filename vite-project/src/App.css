@@ -175,6 +175,13 @@ h1{
   margin: 0;
   text-align: center;
   flex-grow: 1;
+  transition: 1s;
+}
+
+.subsection-title:hover{
+  color: white;
+  transition: 1s;
+  cursor: pointer;
 }
 
 .arrow-icon {
