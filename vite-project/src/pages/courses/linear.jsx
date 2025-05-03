@@ -8,6 +8,10 @@ const Linear = () => {
     unit1: false,
     unit2: false,
     unit3: false,
+    unit4: false,
+    unit5: false,
+    unit6: false,
+    unit7: false,
     definitions: false
   });
 
@@ -20,7 +24,7 @@ const Linear = () => {
 
   return (
     <>
-      <h1>Calculus</h1>
+      <h1>Intro to Linear Algebra</h1>
       <div className="language-div">
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('description')}>
@@ -48,7 +52,7 @@ const Linear = () => {
               {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
-                  <h3 className="subsection-title">Unit 1: Limits and Continuity</h3>
+                  <h3 className="subsection-title">Unit 1: Systems of Linear Equations and Row Reduction</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit1 ? '▼' : '▶'}
                   </span>
@@ -66,7 +70,7 @@ const Linear = () => {
               {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
-                  <h3 className="subsection-title">Unit 2: Differentiation</h3>
+                  <h3 className="subsection-title">Unit 2: Vectors and Linear Independence</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit2 ? '▼' : '▶'}
                   </span>
@@ -86,7 +90,7 @@ const Linear = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: Integration</h3>
+                  <h3 className="subsection-title">Unit 3: Matrix Algebra and Inverses</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -100,6 +104,81 @@ const Linear = () => {
                   </div>
                 )}
               </div>
+
+              {/* Unit 4 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
+                  <h3 className="subsection-title">Unit 4: Subspaces and Dimension</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit4 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit4 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 5 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit5')}>
+                  <h3 className="subsection-title">Unit 5: Determinants and Diagonalization</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit5 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit5 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 6 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit6')}>
+                  <h3 className="subsection-title">Unit 6: Orthogonality and Projections</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit6 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit6 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 7 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit7')}>
+                  <h3 className="subsection-title">Unit 7: Least Squares and Quadratic Forms</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit7 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit7 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              
+
             </div>
           )}
         </div>
