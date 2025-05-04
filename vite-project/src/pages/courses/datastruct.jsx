@@ -8,6 +8,9 @@ const DataStruct = () => {
     unit1: false,
     unit2: false,
     unit3: false,
+    unit4: false,
+    unit5: false,
+    unity6: false,
     definitions: false
   });
 
@@ -20,7 +23,7 @@ const DataStruct = () => {
 
   return (
     <>
-      <h1>Calculus</h1>
+      <h1>Data Structures</h1>
       <div className="language-div">
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('description')}>
@@ -48,7 +51,7 @@ const DataStruct = () => {
               {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
-                  <h3 className="subsection-title">Unit 1: Limits and Continuity</h3>
+                  <h3 className="subsection-title">Unit 1: Runtime & Union-find</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit1 ? '▼' : '▶'}
                   </span>
@@ -66,7 +69,7 @@ const DataStruct = () => {
               {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
-                  <h3 className="subsection-title">Unit 2: Differentiation</h3>
+                  <h3 className="subsection-title">Unit 2: Stacks & Queues</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit2 ? '▼' : '▶'}
                   </span>
@@ -86,7 +89,7 @@ const DataStruct = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: Integration</h3>
+                  <h3 className="subsection-title">Unit 3: Linked Lists</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -100,6 +103,62 @@ const DataStruct = () => {
                   </div>
                 )}
               </div>
+
+              {/* Unit 4 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
+                  <h3 className="subsection-title">Unit 4: Trees</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit4 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit4 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 5 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit5')}>
+                  <h3 className="subsection-title">Unit 5: Graphs</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit5 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit5 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 6 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit6')}>
+                  <h3 className="subsection-title">Unit 6: Sorts</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit6 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit6 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+               
             </div>
           )}
         </div>
