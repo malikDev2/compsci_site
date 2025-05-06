@@ -59,9 +59,9 @@ const DiscreteI = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Sub-topic</h5>
-                    <p>More details about this specific aspect</p>
+                    <p>Propositional logic deals with statements that are either true or false. These statements are expressed through variables and logical operators.</p>
+                    <h5>Logic operators</h5>
+                    <p>∧ (and), ∨ (or), ~/¬ (not), → (implies), ↔ (biconditional), ⊕ (xor), ≡ (logical equivelence), ∀ (for all), ∃ (there exists) </p>
                   </div>
                 )}
               </div>
