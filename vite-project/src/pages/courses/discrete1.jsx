@@ -59,8 +59,8 @@ const DiscreteI = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Propositional logic deals with statements that are either true or false. These statements are expressed through variables and logical operators.</p>
-                    <h5>Logic operators</h5>
+                    <p>Propositional logic deals with statements that are either true or false. These statements are expressed through variables (which are assigned either true/false) and logical operators.</p>
+                    <h5>Logic operators:</h5>
                     <p>∧ (and), ∨ (or), ~/¬ (not), → (implies), ↔ (biconditional), ⊕ (xor), ≡ (logical equivelence), ∀ (for all), ∃ (there exists) </p>
                   </div>
                 )}
@@ -77,11 +77,10 @@ const DiscreteI = () => {
                 {expandedSections.unit2 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <ul>
-                      <li>Key point 1</li>
-                      <li>Key point 2</li>
-                    </ul>
+                    <p>Set theory is the area of discrete structures/math that deals with sets. Sets are well-defined collections of distinct objects. Similar to propositional logic, sets also have their own operators.</p>
+                    <h5>Set operators:</h5>
+                    <p>∪ (union), ∩ (intersection), - (difference), ⊆ (subset), ∈ (element of), P(x) (power-set), X (cross-product)</p>
+                    <h5>Function terms:</h5>
                   </div>
                 )}
               </div>
