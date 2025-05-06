@@ -8,6 +8,7 @@ const Calculus = () => {
     unit1: false,
     unit2: false,
     unit3: false,
+    unit4: false,
     definitions: false
   });
 
@@ -20,7 +21,7 @@ const Calculus = () => {
 
   return (
     <>
-      <h1>Calculus</h1>
+      <h1>Calculus I</h1>
       <div className="language-div">
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('description')}>
@@ -86,7 +87,7 @@ const Calculus = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: Integration</h3>
+                  <h3 className="subsection-title">Unit 3: Applications of Derivatives</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -100,6 +101,25 @@ const Calculus = () => {
                   </div>
                 )}
               </div>
+
+              {/* Unit 4 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
+                  <h3 className="subsection-title">Unit 4: Integrals</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit4 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit4 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
             </div>
           )}
         </div>
