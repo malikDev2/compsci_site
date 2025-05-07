@@ -67,6 +67,12 @@ const Linear = () => {
                       <li>Convert system of equations into matrix</li>
                       <li>Solve a system of linear equations</li>
                     </ul>
+                    <h5>Row transformations:</h5>
+                    <ul>
+                      <li>Row addition: r1 + r2</li>
+                      <li>Row swap: r3 ⟺ r4</li>
+                      <li>Row scaler: r2 = r2/3</li>
+                    </ul>
                   </div>
                 )}
               </div>
