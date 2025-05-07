@@ -60,9 +60,13 @@ const Linear = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Sub-topic</h5>
-                    <p>More details about this specific aspect</p>
+                    <p>Introductory unit to linear algebra. Introduces matricies, row transformations and row echelon forms by building off of prior knowledge of systems of linear equations.</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Find the row echelon form/RREF of a matrix</li>
+                      <li>Convert system of equations into matrix</li>
+                      <li>Solve a system of linear equations</li>
+                    </ul>
                   </div>
                 )}
               </div>
