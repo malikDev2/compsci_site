@@ -61,7 +61,13 @@ const DiscreteI = () => {
                     <h4>Main Concept</h4>
                     <p>Propositional logic deals with statements that are either true or false. These statements are expressed through variables (which are assigned either true/false) and logical operators.</p>
                     <h5>Logic operators:</h5>
-                    <p>∧ (and), ∨ (or), ~/¬ (not), → (implies), ↔ (biconditional), ⊕ (xor), ≡ (logical equivelence), ∀ (for all), ∃ (there exists) </p>
+                    <p>∧ (and), ∨ (or), ~/¬ (not), → (implies), ↔ (biconditional), ⊕ (xor), ≡ (logical equivalence), ∀ (for all), ∃ (there exists) </p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Proving/verifying logical equivalence</li>
+                      <li>Generating truth table</li>
+                      <li>Translate propositional logic to english</li>
+                    </ul>
                   </div>
                 )}
               </div>
@@ -69,7 +75,7 @@ const DiscreteI = () => {
               {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
-                  <h3 className="subsection-title">Unit 2: Set theory</h3>
+                  <h3 className="subsection-title">Unit 2: Set theory & Functions</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit2 ? '▼' : '▶'}
                   </span>
@@ -77,10 +83,16 @@ const DiscreteI = () => {
                 {expandedSections.unit2 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Set theory is the area of discrete structures/math that deals with sets. Sets are well-defined collections of distinct objects. Similar to propositional logic, sets also have their own operators.</p>
+                    <p>Set theory is the area of discrete structures/math that deals with sets. Sets are well-defined collections of distinct objects. Similar to propositional logic, sets also have their own operators. This unit also introduces functions that contain sets.</p>
                     <h5>Set operators:</h5>
                     <p>∪ (union), ∩ (intersection), - (difference), ⊆ (subset), ∈ (element of), P(x) (power-set), X (cross-product)</p>
                     <h5>Function terms:</h5>
+                    <p>Function, Total function, Injective (One-to-One), Surjective (Onto), Bijective</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Proving/verifying set equivalence</li>
+                      <li>Defining functions</li>
+                    </ul>
                   </div>
                 )}
               </div>
