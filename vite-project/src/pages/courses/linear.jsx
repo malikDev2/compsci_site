@@ -90,7 +90,7 @@ const Linear = () => {
                 {expandedSections.unit2 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Introduces the concept of vectors, adding terms such linear independence/dependence, span, and linear combinations.</p>
+                    <p>Introduces the concept of vectors, and how they're intertwined with matricies.</p>
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Solving for span of a set of vectors</li>
@@ -114,9 +114,15 @@ const Linear = () => {
                 {expandedSections.unit3 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Examples</h5>
-                    <p>Example problems and solutions</p>
+                    <p>New operations such as matrix multiplication, inversing, and transposing are introduced.</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Matrix multiplication</li>
+                      <li>Finding inverse of matrix</li>
+                      <li>Transposing matrix</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Inverse, transpose, matrix multiplication, invertible</p>
                   </div>
                 )}
               </div>
