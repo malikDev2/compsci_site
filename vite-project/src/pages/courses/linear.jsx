@@ -73,6 +73,8 @@ const Linear = () => {
                       <li>Row swap: r3 ⟺ r4</li>
                       <li>Row scaler: r2 = r2/3</li>
                     </ul>
+                    <h5>Key terms:</h5>
+                    <p>Matrix, row transformation, row echelon form, reduced row echelon form.</p>
                   </div>
                 )}
               </div>
@@ -88,11 +90,15 @@ const Linear = () => {
                 {expandedSections.unit2 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
+                    <p>Introduces the concept of vectors, adding terms such linear independence/dependence, span, and linear combinations.</p>
+                    <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Key point 1</li>
-                      <li>Key point 2</li>
+                      <li>Solving for span of a set of vectors</li>
+                      <li>Determining linear independence/dependence of vectors</li>
+                      <li>Finding solutions to Ax=b</li>
                     </ul>
+                    <h5>Key terms:</h5>
+                    <p>Vectors, span, linear independece/linear dependence, linear combination.</p>
                   </div>
                 )}
               </div>
