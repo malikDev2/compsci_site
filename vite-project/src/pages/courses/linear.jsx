@@ -138,9 +138,15 @@ const Linear = () => {
                 {expandedSections.unit4 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Examples</h5>
-                    <p>Example problems and solutions</p>
+                    <p>Explores the concept of basis by introducing row, column, and null spaces.</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Find the row/col/null space of matrix</li>
+                      <li>Find if a set of vectors is a valid basis</li>
+                      <li>Find dimensions of basis</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Basis, Dimension, Row space, Column space, Null space (kernel)</p>
                   </div>
                 )}
               </div>
