@@ -213,7 +213,7 @@ h1{
 
 .subsection-content{
   background: rgba(255, 255, 255, 0.403);
-  padding: 3px;
+  padding: 7px;
   border-radius: 5px;
 }
 
@@ -222,4 +222,24 @@ button{
   border: 1px solid black;
   border-radius: 5px;
   transition: 1s;
+}
+
+.subsection h5{
+  color: rgba(255, 255, 255, 0.849);
+}
+
+.subsection h4{
+  color: rgb(0, 4, 255);
+}
+
+.section-title{
+  color: rgb(113, 1, 94);
+}
+
+h1{
+  color: rgb(61, 0, 105);
+}
+
+.home h1{
+  color: black;
 }
