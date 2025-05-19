@@ -106,7 +106,7 @@ const Linear = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: Matrix Algebra and Inverses</h3>
+                  <h3 className="subsection-title">Unit 3: Matrix Algebra, Inverses, and Determinants</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -114,15 +114,17 @@ const Linear = () => {
                 {expandedSections.unit3 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>New operations such as matrix multiplication, inversing, and transposing are introduced.</p>
+                    <p>New operations such as matrix multiplication, inversing, and transposing are introduced along with the concept of determinants.</p>
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Matrix multiplication</li>
+                      <li>Finding determinant of matrix</li>
                       <li>Finding inverse of matrix</li>
                       <li>Transposing matrix</li>
+                      <li>Finding out if matrix is invertible</li>
                     </ul>
                     <h5>Key terms:</h5>
-                    <p>Inverse, transpose, matrix multiplication, invertible</p>
+                    <p>Inverse, transpose, determinant, matrix multiplication, invertible</p>
                   </div>
                 )}
               </div>
@@ -154,7 +156,7 @@ const Linear = () => {
               {/* Unit 5 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit5')}>
-                  <h3 className="subsection-title">Unit 5: Determinants and Diagonalization</h3>
+                  <h3 className="subsection-title">Unit 5: Eigenvalues and Diagonalization</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit5 ? '▼' : '▶'}
                   </span>
