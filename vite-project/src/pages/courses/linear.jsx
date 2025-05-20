@@ -189,9 +189,18 @@ const Linear = () => {
                 {expandedSections.unit6 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Examples</h5>
-                    <p>Example problems and solutions</p>
+                    <p>Defines the concept of orthogonality, two vectors that are perpendicular to each other. Also introduces a new dimension, length, to linear algebra.</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Determining orthogonality of set of vectors</li>
+                      <li>Normalizing set of orthogonal vectors</li>
+                      <li>Finding an orthogonal basis</li>
+                      <li>Finding length of vector</li>
+                      <li>Projecting vector onto span of vectors</li>
+                      <li>Orthogonal Projecting (Gram-Schmidt)</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Orthogonal, Orthonormal, Vector Length, Least Squares, Projection, Orthogonal Projection, Orthogonal Basis, Unit Vector, Unit Length, Dot Product, Gram-Schmidt</p>
                   </div>
                 )}
               </div>
@@ -199,7 +208,7 @@ const Linear = () => {
               {/* Unit 7 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit7')}>
-                  <h3 className="subsection-title">Unit 7: Least Squares and Quadratic Forms</h3>
+                  <h3 className="subsection-title">Unit 7: Quadratic Forms and Singular Values</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit7 ? '▼' : '▶'}
                   </span>
