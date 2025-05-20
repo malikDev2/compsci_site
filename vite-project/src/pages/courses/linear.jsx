@@ -164,9 +164,16 @@ const Linear = () => {
                 {expandedSections.unit5 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Examples</h5>
-                    <p>Example problems and solutions</p>
+                    <p>Introduces eigenvalues, which is the gateway to diagonalization operations.</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Finding eigenvalues of a matrix</li>
+                      <li>Creating elementary matricies</li>
+                      <li>Finding eigenvectors using eigenvalues</li>
+                      <li>Diagonalizing matricies (PDP⁻¹)</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Eigenvalue, Eigenvector, Elementary Matrix, P, D, P⁻¹, Diagonalization</p>
                   </div>
                 )}
               </div>

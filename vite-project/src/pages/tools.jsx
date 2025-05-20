@@ -20,6 +20,9 @@ const Tools = () => {
             </div>
         </Link>  
     </div>
+    <Link to="/">
+        <button>Back</button>
+    </Link>
     </>);
 }
 

@@ -29,6 +29,10 @@ const Courses = () => {
         </Link>
         
     </div>
+
+    <Link to="/">
+        <button>Back</button>
+    </Link>
     
 
     </>);

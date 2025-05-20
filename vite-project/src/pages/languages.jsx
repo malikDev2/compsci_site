@@ -79,6 +79,9 @@ const Languages = () => {
             <div>
                 <h1>Languages</h1>
                 <button>switch mode</button>
+                <Link to="/">
+                    <button>Back</button>
+                </Link>
             </div>
 
             <div className="category">
