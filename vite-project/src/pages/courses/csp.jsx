@@ -8,6 +8,7 @@ const Csp = () => {
     unit1: false,
     unit2: false,
     unit3: false,
+    unit4: false,
     definitions: false
   });
 
@@ -20,7 +21,7 @@ const Csp = () => {
 
   return (
     <>
-      <h1>Calculus</h1>
+      <h1>AP Computer Science Princiaples </h1>
       <div className="language-div">
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('description')}>
@@ -48,7 +49,7 @@ const Csp = () => {
               {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
-                  <h3 className="subsection-title">Unit 1: Limits and Continuity</h3>
+                  <h3 className="subsection-title">Unit 1: Understanding computing</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit1 ? '▼' : '▶'}
                   </span>
@@ -66,7 +67,7 @@ const Csp = () => {
               {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
-                  <h3 className="subsection-title">Unit 2: Differentiation</h3>
+                  <h3 className="subsection-title">Unit 2: Introduction to programming</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit2 ? '▼' : '▶'}
                   </span>
@@ -86,7 +87,7 @@ const Csp = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: Integration</h3>
+                  <h3 className="subsection-title">Unit 3: Computer Systems and Networks</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -100,6 +101,26 @@ const Csp = () => {
                   </div>
                 )}
               </div>
+
+              {/* Unit 4 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
+                  <h3 className="subsection-title">Unit 4: Impact of computing</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit4 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit4 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Detailed explanation would go here</p>
+                    <h5>Examples</h5>
+                    <p>Example problems and solutions</p>
+                  </div>
+                )}
+              </div>
+
+
             </div>
           )}
         </div>
