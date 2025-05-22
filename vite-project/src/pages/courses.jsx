@@ -30,8 +30,8 @@ const Courses = () => {
         
     </div>
 
-    <Link to="/">
-        <button>Back</button>
+    <Link to="/" className="L">
+        <button className="divbut">Back</button>
     </Link>
     
 

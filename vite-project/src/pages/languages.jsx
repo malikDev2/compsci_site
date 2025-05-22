@@ -80,7 +80,7 @@ const Languages = () => {
                 <h1>Languages</h1>
                 <button>switch mode</button>
                 <Link to="/">
-                    <button>Back</button>
+                    <button className="divbut2">Back</button>
                 </Link>
             </div>
 

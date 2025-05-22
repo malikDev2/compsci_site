@@ -243,3 +243,30 @@ h1{
 .home h1{
   color: black;
 }
+
+.divbut{
+  justify-self: center;
+  display: flex;
+  margin-top: 100px;
+  transition: 1s;
+}
+
+.divbut2{
+  transition: 1s;
+}
+
+
+.divbut:hover, .divbut2:hover{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgb(255, 0, 0);
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px black;
+}
+
+.L{
+  text-decoration: none;
+}
