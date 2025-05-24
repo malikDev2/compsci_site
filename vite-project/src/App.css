@@ -40,8 +40,12 @@ nav ul li a:hover {
 
 
 
-h1{
+h1, h2{
   text-align: center;
+}
+
+h2{
+  color: rgb(188, 166, 255);
 }
 
 .homediv{
