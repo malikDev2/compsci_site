@@ -35,6 +35,7 @@ const Linear = () => {
           </div>
           {expandedSections.description && (
             <div className="section-content">
+              <p>Linear Algebra is the final required math course for a Bachelors degree in Computer Science. It is typically taken after the completion of Calculus 2. Linear algebra builds on top of systems of linear-equations by introducing a new way to express them, the matrix.</p>
               {/* Content would go here */}
             </div>
           )}
@@ -198,6 +199,7 @@ const Linear = () => {
                       <li>Finding length of vector</li>
                       <li>Projecting vector onto span of vectors</li>
                       <li>Orthogonal Projecting (Gram-Schmidt)</li>
+                      <li>Solving for least square solution (AᵀA = Aᵀb)</li>
                     </ul>
                     <h5>Key terms:</h5>
                     <p>Orthogonal, Orthonormal, Vector Length, Least Squares, Projection, Orthogonal Projection, Orthogonal Basis, Unit Vector, Unit Length, Dot Product, Gram-Schmidt</p>
@@ -216,12 +218,21 @@ const Linear = () => {
                 {expandedSections.unit7 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Examples</h5>
-                    <p>Example problems and solutions</p>
+                    <p>Brief introduction to quadratic forms, as well as singular values. The course concludes with Singular Value Decomposition.</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Find singular values of matrix</li>
+                      <li>Find Singular Value Decomposition of matrix</li>
+                      <li>Form matrix from quadratic form ⇔ form quadratic form from matrix</li>
+                      <li>Identifying quadratic forms</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Quadratic Form, Singular Value, Singular Value Decompositoin, Positive/Negative Definite, Semi-definite, Indefinite</p>
                   </div>
                 )}
               </div>
+
+          
 
               
 

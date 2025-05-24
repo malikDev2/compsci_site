@@ -23,7 +23,7 @@ const Intro = () => {
   return (
     <>
       <h1>Intro to Computer Science</h1>
-      <h2>(AP Computer Science A)</h2>
+      <h2 style={{color: 'rgb(255, 152, 221)'}}>(AP Computer Science A)</h2>
       <div className="language-div">
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('description')}>
