@@ -8,6 +8,7 @@ nav {
   width: 100%;
 }
 
+
 nav > ul {
   list-style: none;
   display: flex;
@@ -90,18 +91,18 @@ h1, h2{
 }
 
 .language{
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   padding: 5px;
-  border: 3px solid black;
+ 
   background: var(--boxColor);
-  border-radius: 3px;
+  border-radius: 10px;
   transition: 1s;
 }
 
 .language:hover{
-  border: 3px solid yellow;
   transition: 1s;
-  margin: 5px;
+  margin: 10px;
+  padding: 50px;
   box-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
 
@@ -112,12 +113,15 @@ h1, h2{
 
 .category button{
   align-self: center;
+  border: none;
+  
 }
 
 .category button:hover{
   background: rgba(245, 85, 85, 0.5);
   transition: 0.3s;
   cursor: pointer;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.647);
 }
 
 .mathcourse{
@@ -139,7 +143,6 @@ h1, h2{
   display: block;
 }
 
-/* Python.css */
 
 .language-div {
   margin: 20px 0;
