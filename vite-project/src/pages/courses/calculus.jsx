@@ -57,9 +57,20 @@ const Calculus = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Detailed explanation would go here</p>
-                    <h5>Sub-topic</h5>
-                    <p>More details about this specific aspect</p>
+                    <p>Calculus kicks off with limits, the value f(x) nears as x approaches a defined value. Continuity is also introduced, built on top of prior knowledge of functions.</p>
+                    <h5>Problems encountered:</h5>
+                    <ul>
+                      <li>Determine continuity of a function</li>
+                      <li>Classify type of discontinuity</li>
+                      <li>Identify points of discontinuity</li>
+                      <li>Solve for limit of function</li>
+                    </ul>
+                    <h5>Syntax:</h5>
+                    <ul>
+                      <li>Limit: lim(x→a) f(x) </li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Limit, Continuity, Continuious, Discontinuious, Function, Discontinutiy type: (Removable, Jump, Infinite), Intermediate Value Theorem.</p>
                   </div>
                 )}
               </div>
