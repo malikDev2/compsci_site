@@ -36,7 +36,7 @@ const Linear = () => {
           {expandedSections.description && (
             <div className="section-content">
               <p>Linear Algebra is the final required math course for a Bachelors degree in Computer Science. It is typically taken after the completion of Calculus 2. Linear algebra builds on top of systems of linear-equations by introducing a new way to express them, the matrix.</p>
-              {/* Content would go here */}
+              <p>This course covers fundamental concepts including vector spaces, matrix operations, linear transformations, eigenvalues, and their applications in computer science such as computer graphics, machine learning, and data analysis.</p>
             </div>
           )}
         </div>
@@ -61,21 +61,33 @@ const Linear = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Introductory unit to linear algebra. Introduces matricies, row transformations and row echelon forms by building off of prior knowledge of systems of linear equations.</p>
+                    <p>Introductory unit to linear algebra. Introduces matrices, row transformations and row echelon forms by building off of prior knowledge of systems of linear equations.</p>
+                    
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Find the row echelon form/RREF of a matrix</li>
                       <li>Convert system of equations into matrix</li>
                       <li>Solve a system of linear equations</li>
+                      <li>Determine if a system is consistent or inconsistent</li>
+                      <li>Identify free variables in a system</li>
                     </ul>
+                    
                     <h5>Row transformations:</h5>
                     <ul>
-                      <li>Row addition: r1 + r2</li>
-                      <li>Row swap: r3 ⟺ r4</li>
-                      <li>Row scaler: r2 = r2/3</li>
+                      <li>Row addition: r1 + r2 → r1</li>
+                      <li>Row swap: r3 ↔ r4</li>
+                      <li>Row scaling: r2 = r2/3</li>
                     </ul>
+                    
+                    <h5>Special Matrices:</h5>
+                    <ul>
+                      <li>Identity matrix (I)</li>
+                      <li>Zero matrix</li>
+                      <li>Triangular matrices</li>
+                    </ul>
+                    
                     <h5>Key terms:</h5>
-                    <p>Matrix, row transformation, row echelon form, reduced row echelon form.</p>
+                    <p>Matrix, row transformation, row echelon form (REF), reduced row echelon form (RREF), pivot positions, free variables, consistent/inconsistent systems.</p>
                   </div>
                 )}
               </div>
@@ -91,15 +103,27 @@ const Linear = () => {
                 {expandedSections.unit2 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Introduces the concept of vectors, and how they're intertwined with matricies.</p>
+                    <p>Introduces the concept of vectors, and how they're intertwined with matrices. Covers vector operations and the fundamental concepts of linear combinations and independence.</p>
+                    
+                    <h5>Vector Operations:</h5>
+                    <ul>
+                      <li>Vector addition: u + v</li>
+                      <li>Scalar multiplication: c·v</li>
+                      <li>Dot product: u·v</li>
+                      <li>Cross product (in ℝ³): u × v</li>
+                    </ul>
+                    
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Solving for span of a set of vectors</li>
                       <li>Determining linear independence/dependence of vectors</li>
-                      <li>Finding solutions to Ax=b</li>
+                      <li>Finding solutions to Ax = b</li>
+                      <li>Expressing vectors as linear combinations</li>
+                      <li>Determining if a vector is in the span of a set</li>
                     </ul>
+                    
                     <h5>Key terms:</h5>
-                    <p>Vectors, span, linear independece/linear dependence, linear combination.</p>
+                    <p>Vectors, vector space, span, linear independence/dependence, linear combination, trivial solution, homogeneous system.</p>
                   </div>
                 )}
               </div>
@@ -115,22 +139,41 @@ const Linear = () => {
                 {expandedSections.unit3 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>New operations such as matrix multiplication, inversing, and transposing are introduced along with the concept of determinants.</p>
+                    <p>New operations such as matrix multiplication, inversing, and transposing are introduced along with the concept of determinants, which provide important information about matrices.</p>
+                    
+                    <h5>Matrix Operations:</h5>
+                    <ul>
+                      <li>Addition: A + B</li>
+                      <li>Scalar multiplication: cA</li>
+                      <li>Matrix multiplication: AB</li>
+                      <li>Transpose: Aᵀ</li>
+                      <li>Inverse: A⁻¹</li>
+                    </ul>
+                    
+                    <h5>Determinant Properties:</h5>
+                    <ul>
+                      <li>det(AB) = det(A)det(B)</li>
+                      <li>det(Aᵀ) = det(A)</li>
+                      <li>det(A⁻¹) = 1/det(A)</li>
+                    </ul>
+                    
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Matrix multiplication</li>
                       <li>Finding determinant of matrix</li>
-                      <li>Finding inverse of matrix</li>
+                      <li>Finding inverse of matrix using adjugate method</li>
                       <li>Transposing matrix</li>
-                      <li>Finding out if matrix is invertible</li>
+                      <li>Determining if matrix is invertible</li>
+                      <li>Solving matrix equations</li>
                     </ul>
+                    
                     <h5>Key terms:</h5>
-                    <p>Inverse, transpose, determinant, matrix multiplication, invertible</p>
+                    <p>Inverse, transpose, determinant, matrix multiplication, invertible, singular matrix, adjugate, cofactor, minor.</p>
                   </div>
                 )}
               </div>
 
-              {/* Unit 4 */}
+              {/* Unit 4 - Enhanced */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
                   <h3 className="subsection-title">Unit 4: Subspaces and Dimension</h3>
@@ -141,15 +184,30 @@ const Linear = () => {
                 {expandedSections.unit4 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Explores the concept of basis by introducing row, column, and null spaces.</p>
+                    <p>Explores the concept of basis by introducing row, column, and null spaces. Dimension provides a measure of the size of these spaces.</p>
+                    
+                    <h5>Fundamental Subspaces:</h5>
+                    <ul>
+                      <li>Row space: C(Aᵀ)</li>
+                      <li>Column space: C(A)</li>
+                      <li>Null space: N(A)</li>
+                      <li>Left null space: N(Aᵀ)</li>
+                    </ul>
+                    
+                    <h5>Rank-Nullity Theorem:</h5>
+                    <p>rank(A) + nullity(A) = n (number of columns)</p>
+                    
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Find the row/col/null space of matrix</li>
-                      <li>Find if a set of vectors is a valid basis</li>
+                      <li>Determine if a set of vectors is a valid basis</li>
                       <li>Find dimensions of basis</li>
+                      <li>Extend a linearly independent set to a basis</li>
+                      <li>Find basis for sum and intersection of subspaces</li>
                     </ul>
+                    
                     <h5>Key terms:</h5>
-                    <p>Basis, Dimension, Row space, Column space, Null space (kernel)</p>
+                    <p>Basis, dimension, row space, column space, null space (kernel), rank, nullity, fundamental theorem of linear algebra.</p>
                   </div>
                 )}
               </div>
@@ -165,16 +223,33 @@ const Linear = () => {
                 {expandedSections.unit5 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Introduces eigenvalues, which is the gateway to diagonalization operations.</p>
+                    <p>Introduces eigenvalues and eigenvectors, which are fundamental to understanding matrix behavior and enable diagonalization operations that simplify matrix computations.</p>
+                    
+                    <h5>Key Equations:</h5>
+                    <ul>
+                      <li>Characteristic equation: det(A - λI) = 0</li>
+                      <li>Eigenvalue equation: Av = λv</li>
+                      <li>Diagonalization: A = PDP⁻¹</li>
+                    </ul>
+                    
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Finding eigenvalues of a matrix</li>
-                      <li>Creating elementary matricies</li>
                       <li>Finding eigenvectors using eigenvalues</li>
-                      <li>Diagonalizing matricies (PDP⁻¹)</li>
+                      <li>Diagonalizing matrices (PDP⁻¹)</li>
+                      <li>Determining if a matrix is diagonalizable</li>
+                      <li>Computing matrix powers using diagonalization</li>
                     </ul>
+                    
+                    <h5>Special Cases:</h5>
+                    <ul>
+                      <li>Matrices with repeated eigenvalues</li>
+                      <li>Defective matrices</li>
+                      <li>Symmetric matrices</li>
+                    </ul>
+                    
                     <h5>Key terms:</h5>
-                    <p>Eigenvalue, Eigenvector, Elementary Matrix, P, D, P⁻¹, Diagonalization</p>
+                    <p>Eigenvalue, eigenvector, eigenspace, characteristic polynomial, algebraic/geometric multiplicity, diagonalizable, similarity transformation.</p>
                   </div>
                 )}
               </div>
@@ -190,19 +265,35 @@ const Linear = () => {
                 {expandedSections.unit6 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Defines the concept of orthogonality, two vectors that are perpendicular to each other. Also introduces a new dimension, length, to linear algebra.</p>
+                    <p>Defines the concept of orthogonality (perpendicularity) and introduces projections which are crucial for approximation methods like least squares.</p>
+                    
+                    <h5>Key Formulas:</h5>
+                    <ul>
+                      <li>Dot product: u·v = u₁v₁ + u₂v₂ + ... + uₙvₙ</li>
+                      <li>Vector length: ||v|| = √(v·v)</li>
+                      <li>Projection: projᵤv = (u·v)/(u·u) u</li>
+                      <li>Least squares: AᵀAx̂ = Aᵀb</li>
+                    </ul>
+                    
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Determining orthogonality of set of vectors</li>
                       <li>Normalizing set of orthogonal vectors</li>
-                      <li>Finding an orthogonal basis</li>
+                      <li>Finding an orthogonal basis (Gram-Schmidt)</li>
                       <li>Finding length of vector</li>
                       <li>Projecting vector onto span of vectors</li>
-                      <li>Orthogonal Projecting (Gram-Schmidt)</li>
-                      <li>Solving for least square solution (AᵀA = Aᵀb)</li>
+                      <li>Solving for least square solution</li>
                     </ul>
+                    
+                    <h5>Applications:</h5>
+                    <ul>
+                      <li>QR factorization</li>
+                      <li>Fourier series</li>
+                      <li>Data fitting</li>
+                    </ul>
+                    
                     <h5>Key terms:</h5>
-                    <p>Orthogonal, Orthonormal, Vector Length, Least Squares, Projection, Orthogonal Projection, Orthogonal Basis, Unit Vector, Unit Length, Dot Product, Gram-Schmidt</p>
+                    <p>Orthogonal, orthonormal, norm, unit vector, projection, orthogonal complement, Gram-Schmidt process, least squares, normal equations.</p>
                   </div>
                 )}
               </div>
@@ -218,24 +309,37 @@ const Linear = () => {
                 {expandedSections.unit7 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Brief introduction to quadratic forms, as well as singular values. The course concludes with Singular Value Decomposition.</p>
+                    <p>Brief introduction to quadratic forms and singular value decomposition (SVD), which is one of the most important matrix factorizations with applications in data science and engineering.</p>
+                    
+                    <h5>Key Concepts:</h5>
+                    <ul>
+                      <li>Spectral theorem for symmetric matrices</li>
+                      <li>Positive definite matrices</li>
+                      <li>Singular value decomposition: A = UΣVᵀ</li>
+                      <li>Principal component analysis (PCA)</li>
+                    </ul>
+                    
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Find singular values of matrix</li>
                       <li>Find Singular Value Decomposition of matrix</li>
-                      <li>Form matrix from quadratic form ⇔ form quadratic form from matrix</li>
-                      <li>Identifying quadratic forms</li>
+                      <li>Convert between quadratic forms and matrices</li>
+                      <li>Classify quadratic forms</li>
+                      <li>Find principal axes of quadratic form</li>
                     </ul>
+                    
+                    <h5>Applications:</h5>
+                    <ul>
+                      <li>Image compression</li>
+                      <li>Principal component analysis</li>
+                      <li>Pseudoinverses</li>
+                    </ul>
+                    
                     <h5>Key terms:</h5>
-                    <p>Quadratic Form, Singular Value, Singular Value Decompositoin, Positive/Negative Definite, Semi-definite, Indefinite</p>
+                    <p>Quadratic form, singular value, singular value decomposition (SVD), positive/negative definite, semi-definite, indefinite, pseudoinverse, condition number.</p>
                   </div>
                 )}
               </div>
-
-          
-
-              
-
             </div>
           )}
         </div>
@@ -251,10 +355,44 @@ const Linear = () => {
           {expandedSections.definitions && (
             <div className="section-content">
               <dl>
-                <dt>Limit</dt>
-                <dd>Definition would go here</dd>
-                <dt>Derivative</dt>
-                <dd>Definition would go here</dd>
+                <dt>Matrix</dt>
+                <dd>A rectangular array of numbers arranged in rows and columns, used to represent linear transformations and systems of linear equations.</dd>
+                
+                <dt>Vector</dt>
+                <dd>An element of a vector space, typically represented as an ordered list of numbers that can be added together and multiplied by scalars.</dd>
+                
+                <dt>Linear Independence</dt>
+                <dd>A set of vectors is linearly independent if no vector in the set can be written as a linear combination of the others.</dd>
+                
+                <dt>Basis</dt>
+                <dd>A linearly independent set of vectors that spans a vector space or subspace.</dd>
+                
+                <dt>Determinant</dt>
+                <dd>A scalar value that can be computed from a square matrix and encodes certain properties of the linear transformation represented by the matrix.</dd>
+                
+                <dt>Eigenvalue</dt>
+                <dd>A scalar λ such that there exists a non-zero vector v (eigenvector) where Av = λv.</dd>
+                
+                <dt>Orthogonal</dt>
+                <dd>Two vectors are orthogonal if their dot product is zero, meaning they are perpendicular to each other.</dd>
+                
+                <dt>Singular Value Decomposition (SVD)</dt>
+                <dd>A factorization of a real or complex matrix that generalizes the eigendecomposition to non-square matrices.</dd>
+                
+                <dt>Rank</dt>
+                <dd>The dimension of the column space (or row space) of a matrix, equal to the number of linearly independent columns (or rows).</dd>
+                
+                <dt>Null Space (Kernel)</dt>
+                <dd>The set of all vectors that are mapped to the zero vector by a given linear transformation.</dd>
+                
+                <dt>Diagonalization</dt>
+                <dd>The process of finding a diagonal matrix D that is similar to a given square matrix A (A = PDP⁻¹).</dd>
+                
+                <dt>Quadratic Form</dt>
+                <dd>A homogeneous polynomial of degree two in several variables, which can be represented by a symmetric matrix.</dd>
+                
+                <dt>Positive Definite Matrix</dt>
+                <dd>A symmetric matrix where all eigenvalues are positive, or equivalently, xᵀAx is greater than 0 for all non-zero vectors x.</dd>
               </dl>
             </div>
           )}
