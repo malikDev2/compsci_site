@@ -67,7 +67,7 @@ const Calculus = () => {
                     </ul>
                     <h5>Syntax:</h5>
                     <ul>
-                      <li>Limit: lim(x→a) f(x) </li>
+                      <li><strong>Limit:</strong> lim(x→a) f(x) </li>
                     </ul>
                     <h5>Key terms:</h5>
                     <p>Limit, Continuity, Continuous, Discontinuous, Function, Discontinuity type: (Removable, Jump, Infinite), Intermediate Value Theorem.</p>
