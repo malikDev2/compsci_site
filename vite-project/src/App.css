@@ -275,3 +275,34 @@ h1{
 .L{
   text-decoration: none;
 }
+
+/* Parent container - controls spacing */
+.video-row {
+  display: flex;
+  gap: 10px;         /* Space between videos */
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Aligns videos to left */
+}
+
+/* Video wrapper - makes videos smaller */
+.video-wrapper {
+  width: 500px;      /* Fixed width (adjust as needed) */
+  flex-shrink: 0;    /* Prevents shrinking */
+}
+
+/* Your existing responsive video styles */
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

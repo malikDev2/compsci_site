@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import YT from '../yt';
 
 const Calculus = () => {
   // Section logic
@@ -71,6 +72,16 @@ const Calculus = () => {
                     </ul>
                     <h5>Key terms:</h5>
                     <p>Limit, Continuity, Continuous, Discontinuous, Function, Discontinuity type: (Removable, Jump, Infinite), Intermediate Value Theorem.</p>
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="YNstP0ESndU"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="joewRl1CTL8"/>
+                      </div>
+                    </div>
+                    
                   </div>
                 )}
               </div>
