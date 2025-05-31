@@ -130,6 +130,17 @@ const Calculus = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Derivative, Differentiation, Tangent line, Instantaneous rate of change, Product rule, Quotient rule, Chain rule, Implicit differentiation, Related rates.</p>
+                    
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="5yfh5cf4-0w"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="AdLAkD-r9Rs"/>
+                      </div>
+                    </div>
+                    
                   </div>
                 )}
               </div>
@@ -167,6 +178,16 @@ const Calculus = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Critical point, Local maximum/minimum, Absolute maximum/minimum, Concave up/down, Inflection point, Optimization, Related rates, Position function, Velocity, Acceleration.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="Y7e7UDVoGRo"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="WiOdQQYLMU4"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -220,6 +241,23 @@ const Calculus = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Integral, Antiderivative, Riemann sum, Fundamental Theorem of Calculus, Substitution, Area between curves, Volume of revolution, Disk method, Washer method.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="xaCPDMEkbig"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="6WUjbJEeJwM"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="kgg5Rspf1Js"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="SAHSVg7Jw_A"/>
+                      </div>
+                    </div>
+
                   </div>
                 )}
               </div>
