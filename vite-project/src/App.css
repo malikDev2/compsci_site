@@ -276,24 +276,22 @@ h1{
   text-decoration: none;
 }
 
-/* Parent container - controls spacing */
+
 .video-row {
   display: flex;
-  gap: 10px;         /* Space between videos */
+  gap: 10px;        
   flex-wrap: wrap;
-  justify-content: flex-start; /* Aligns videos to left */
+  justify-content: flex-start; 
 }
 
-/* Video wrapper - makes videos smaller */
 .video-wrapper {
-  width: 500px;      /* Fixed width (adjust as needed) */
-  flex-shrink: 0;    /* Prevents shrinking */
+  width: 500px;      
+  flex-shrink: 0;    
 }
 
-/* Your existing responsive video styles */
 .video-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  padding-bottom: 56.25%; 
   position: relative;
   height: 0;
 }
