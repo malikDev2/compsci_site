@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import YT from '../yt';
 
 const Calculus2 = () => {
   // Section logic
@@ -87,6 +88,16 @@ const Calculus2 = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Solid of revolution, cross-sectional area, arc length, surface of revolution, work, hydrostatic pressure, center of mass, fluid force.</p>
+                    
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="SAHSVg7Jw_A"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="DNDAwWIL5FY"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -131,6 +142,22 @@ const Calculus2 = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Antiderivative, u-substitution, integration by parts, trigonometric identity, partial fractions, improper integral, convergence, divergence.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="sdYdnpYn-1o"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="sWSLLO3DS1I"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="3pXALn2ovIE"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="ocgjfF2AboA"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -177,6 +204,22 @@ const Calculus2 = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Sequence, series, partial sum, convergence, divergence, absolute convergence, conditional convergence, remainder, error bound.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="Tj89FA-d0f8"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="zg9N2gAf6a4"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="0YeON4p0ogw"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="FkUrAgBzAZo"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -229,6 +272,16 @@ const Calculus2 = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Power series, radius of convergence, interval of convergence, Taylor polynomial, Taylor series, Maclaurin series, binomial series, remainder term.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="EGni2-m5yxM"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="LDBnS4c7YbA"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -279,6 +332,16 @@ const Calculus2 = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Parametric equations, parameter, polar coordinates, polar graph, cardioid, rose curve, limaçon, arc length in polar, area in polar.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="97pe-QlSGqA"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="aSdaT62ndYE"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
