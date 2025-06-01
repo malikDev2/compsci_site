@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import YT from '../yt';
 
 const Linear = () => {
   // Section logic
@@ -88,6 +89,20 @@ const Linear = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Matrix, row transformation, row echelon form (REF), reduced row echelon form (RREF), pivot positions, free variables, consistent/inconsistent systems.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="yRwQ7A6jVLk"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="9PNCjHemIhI"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="eDb6iugi6Uk"/>
+                      </div>
+                    </div>
+
                   </div>
                 )}
               </div>
@@ -124,6 +139,19 @@ const Linear = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Vectors, vector space, span, linear independence/dependence, linear combination, trivial solution, homogeneous system.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="Qm_OS-8COwU"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="9kDpbZCK62Y"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="EP2ghkO0lSk"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -169,6 +197,25 @@ const Linear = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Inverse, transpose, determinant, matrix multiplication, invertible, singular matrix, adjugate, cofactor, minor.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="QXUbFzEd3Ww"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="vzt9c7iWPxs"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="kWorj5BBy9k"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="Fg7_mv3izR0"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="HgFUYepT7FM"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
