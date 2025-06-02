@@ -220,7 +220,7 @@ const Linear = () => {
                 )}
               </div>
 
-              {/* Unit 4 - Enhanced */}
+              {/* Unit 4 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
                   <h3 className="subsection-title">Unit 4: Subspaces and Dimension</h3>

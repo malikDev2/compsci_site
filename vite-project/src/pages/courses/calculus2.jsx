@@ -49,7 +49,7 @@ const Calculus2 = () => {
           </div>
           {expandedSections.units && (
             <div className="subsection-container">
-              {/* Unit 1 - Applications of Integration */}
+              {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
                   <h3 className="subsection-title">Unit 1: Applications of Integration</h3>
@@ -102,7 +102,7 @@ const Calculus2 = () => {
                 )}
               </div>
 
-              {/* Unit 2 - Integration Techniques */}
+              {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
                   <h3 className="subsection-title">Unit 2: Integration Techniques</h3>
@@ -162,7 +162,7 @@ const Calculus2 = () => {
                 )}
               </div>
 
-              {/* Unit 3 - Sequences and Series */}
+              {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
                   <h3 className="subsection-title">Unit 3: Sequences, Series, and Convergence</h3>
@@ -224,7 +224,7 @@ const Calculus2 = () => {
                 )}
               </div>
 
-              {/* Unit 4 - Power Series */}
+              {/* Unit 4 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
                   <h3 className="subsection-title">Unit 4: Power Series</h3>
@@ -286,7 +286,7 @@ const Calculus2 = () => {
                 )}
               </div>
 
-              {/* Unit 5 - Parametric and Polar */}
+              {/* Unit 5 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit5')}>
                   <h3 className="subsection-title">Unit 5: Parametric Equations and Polar Coordinates</h3>
@@ -349,7 +349,7 @@ const Calculus2 = () => {
           )}
         </div>
 
-        {/* Definitions Section - Completed */}
+        {/* Definitions Section */}
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('definitions')}>
             <h2 className="section-title">Definitions</h2>
