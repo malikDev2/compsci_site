@@ -255,6 +255,16 @@ const Linear = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Basis, dimension, row space, column space, null space (kernel), rank, nullity, fundamental theorem of linear algebra.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="4C9GKyfUQkc"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="AVWTlNkTNfw"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -297,6 +307,19 @@ const Linear = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Eigenvalue, eigenvector, eigenspace, characteristic polynomial, algebraic/geometric multiplicity, diagonalizable, similarity transformation.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="PFDu9oVAE-g"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="TQvxWaQnrqI"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="WTLl03D4TNA"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -341,6 +364,25 @@ const Linear = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Orthogonal, orthonormal, norm, unit vector, projection, orthogonal complement, Gram-Schmidt process, least squares, normal equations.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="6nqMegdbxik"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="WNuIhXo39_k"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="zHbfZWZJTGc"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="27vT-NWuw0M"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="uUWxGVVk0AY"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -384,6 +426,19 @@ const Linear = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Quadratic form, singular value, singular value decomposition (SVD), positive/negative definite, semi-definite, indefinite, pseudoinverse, condition number.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="0yEiCV-xEWQ"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="wHAJzemKQW4"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="OFnnWWIFg64"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
