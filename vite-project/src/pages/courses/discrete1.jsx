@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import YT from '../yt';
 
 const DiscreteI = () => {
   // Section logic
@@ -96,6 +97,19 @@ const DiscreteI = () => {
                       <li>Algorithm correctness proofs</li>
                       <li>Database query optimization</li>
                     </ul>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="5NGKbiA04Cw"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="93CxSLi89Ok"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="itrXYg41-V0"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -147,6 +161,19 @@ const DiscreteI = () => {
                       <li>Relational algebra</li>
                       <li>Function complexity analysis</li>
                     </ul>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="5ZhNmKb-dqk"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="tyDKR4FG3Yw"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="4TlCToZZ5gA"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -197,6 +224,16 @@ const DiscreteI = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Axiom, conjecture, lemma, theorem, corollary, induction hypothesis, base case, inductive step, counterexample.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="HIkIqt_ytdc"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="V5tUc-J124s"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -247,6 +284,29 @@ const DiscreteI = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Alphabet, string, language, production rule, derivation, parse tree, regular language, reflexive closure, symmetric closure, transitive closure, equivalence class.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="7MBpk4gJRkk"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="h1OSmLSacNA"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="DiXMoBMWMmA"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="VssLdh6YhXI"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="dbihQ6tiRJ0"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="uGxPGT6boYQ"/>
+                      </div>
+
+                    </div>
                   </div>
                 )}
               </div>
@@ -291,6 +351,19 @@ const DiscreteI = () => {
                     
                     <h5>Key terms:</h5>
                     <p>State, transition, alphabet, accept state, reject state, halting problem, universal Turing machine, decidability, tape alphabet.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="njzrUYrCK0w"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="N_N9Ky6tN_s"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="gJQTFhkhwPA"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -336,6 +409,22 @@ const DiscreteI = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Prime number, composite number, greatest common divisor (GCD), least common multiple (LCM), congruence, modular inverse, public-key cryptography, primality testing.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="E-Sg2YsvZds"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="JUzYl1TYMcU"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="wcbH4t5SJpg"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="K2YmMpulFA4"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>

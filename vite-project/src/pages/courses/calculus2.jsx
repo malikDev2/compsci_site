@@ -87,7 +87,7 @@ const Calculus2 = () => {
                     </ul>
                     
                     <h5>Key terms:</h5>
-                    <p>Solid of revolution, cross-sectional area, arc length, surface of revolution, work, hydrostatic pressure, center of mass, fluid force.</p>
+                    <p>Solid of revolution, cross-sectional area, arc length, surface of revolution, Disk/Washer/Shell method.</p>
                     
                     <h5>Videos:</h5>
                     <div className="video-row">
