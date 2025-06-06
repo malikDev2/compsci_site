@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import YT from '../yt';
 
 const DataStruct = () => {
   // Section logic
@@ -60,7 +61,7 @@ const DataStruct = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>Analysis of algorithm efficiency using asymptotic notation and implementation of union-find data structures for disjoint sets.</p>
+                    <p>Introduction to time/space complexity and implementation of union-find data structures for disjoint sets.</p>
                     
                     <h5>Runtime Analysis:</h5>
                     <ul>
@@ -96,6 +97,19 @@ const DataStruct = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Time complexity, space complexity, run-time notation, find, union.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="XMUe3zFhM5c"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="ayW5B2W9hfo"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="__vX2sjlpXU"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -153,6 +167,19 @@ const DataStruct = () => {
                     
                     <h5>Key terms:</h5>
                     <p>LIFO, FIFO, priority queue, enqueue, dequeue, push, pop, stack, queue.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="A3ZUpyrnCbM"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="UARU54yMyn0"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="okr-XE8yTO8"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -192,7 +219,6 @@ const DataStruct = () => {
                       <li>Detecting cycles</li>
                       <li>Finding middle element</li>
                       <li>Merging sorted lists</li>
-                      <li>Handling memory allocation</li>
                     </ul>
                     
                     <h5>Applications:</h5>
@@ -205,6 +231,19 @@ const DataStruct = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Node, pointer/reference, head, tail, next.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="F8AbOfQwl1c"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="gztwNv4o_9E"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="JdQeNxWCguQ"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -259,6 +298,25 @@ const DataStruct = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Root, leaf, depth, height, balanced tree, rotation, traversal, complete tree, heapify.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="Etpc_-br5rI"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="Gt2yBZAhsGM"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="b_NjndniOqY"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="qvZGUFHWChY"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="QO90Dq_B9xs"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -316,6 +374,16 @@ const DataStruct = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Vertex, edge, adjacency, path, cycle, connectivity, shortest path, minimum spanning tree, topological order.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="-VgHk7UMPP4"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="cS-198wtfj0"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -343,12 +411,6 @@ const DataStruct = () => {
                       <li><strong>Heap Sort:</strong> O(n log n), not stable</li>
                     </ul>
                     
-                    <h5>Non-comparison Sorts:</h5>
-                    <ul>
-                      <li><strong>Counting Sort:</strong> O(n+k), k is range</li>
-                      <li><strong>Radix Sort:</strong> O(nk), k is digit length</li>
-                      <li><strong>Bucket Sort:</strong> O(n) when well-distributed</li>
-                    </ul>
                     
                     <h5>Problems encountered:</h5>
                     <ul>
@@ -367,6 +429,29 @@ const DataStruct = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Stability, in-place, comparison sort, adaptive sort, divide-and-conquer, pivot, partition, external sort.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="g-PGLbMth_g"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="xli_FI7CuzA"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="JU767SDMDvA"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="2DmK_H7IdTo"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="4VqmGXwpLqc"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="Hoixgm4-P4M"/>
+                      </div>
+                      
+                    </div>
                   </div>
                 )}
               </div>
@@ -412,12 +497,6 @@ const DataStruct = () => {
                 
                 <dt>Dynamic Array</dt>
                 <dd>An array that grows automatically when full, typically doubling in size, providing amortized O(1) insertion at end.</dd>
-                
-                <dt>Circular Buffer</dt>
-                <dd>A data structure that uses a single, fixed-size buffer as if it were connected end-to-end for queue implementations.</dd>
-                
-                <dt>Skip List</dt>
-                <dd>A probabilistic data structure that allows O(log n) search complexity as well as O(log n) insertion complexity.</dd>
                 
                 <dt>Dijkstra's Algorithm</dt>
                 <dd>An algorithm for finding the shortest paths between nodes in a graph with non-negative edge weights.</dd>
