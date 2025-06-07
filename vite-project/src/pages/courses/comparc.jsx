@@ -48,7 +48,7 @@ const CompArc = () => {
           </div>
           {expandedSections.units && (
             <div className="subsection-container">
-              {/* Unit 1 - C Programming */}
+              {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
                   <h3 className="subsection-title">Unit 1: C Programming</h3>
@@ -75,10 +75,9 @@ const CompArc = () => {
                     <h5>Problems encountered:</h5>
                     <ul>
                       <li>Pointer arithmetic and dereferencing</li>
-                      <li>Memory leaks and dangling pointers</li>
-                      <li>Buffer overflow vulnerabilities</li>
-                      <li>Endianness issues in binary I/O</li>
+                      <li>Allocating and freeing memory</li>
                       <li>Type casting between pointers</li>
+                      <li>String/Array/Loop problems in C</li>
                     </ul>
                     
                     <h5>Applications:</h5>
@@ -90,12 +89,12 @@ const CompArc = () => {
                     </ul>
                     
                     <h5>Key terms:</h5>
-                    <p>Pointer, dereference, memory allocation, segmentation fault, struct, union, typedef, header file, preprocessor directive.</p>
+                    <p>Pointer, dereference, memory allocation, struct, union, typedef, header file, preprocessor directive.</p>
                   </div>
                 )}
               </div>
 
-              {/* Unit 2 - Computer Memory */}
+              {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
                   <h3 className="subsection-title">Unit 2: Computer Memory</h3>
@@ -132,11 +131,9 @@ const CompArc = () => {
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Integer overflow/underflow</li>
-                      <li>Floating point precision issues</li>
-                      <li>Memory alignment requirements</li>
-                      <li>Endianness in data transmission</li>
-                      <li>Memory bandwidth bottlenecks</li>
+                      <li>Determine endianness of code</li>
+                      <li>IEEE conversions</li>
+                      <li>Negating integers using 1's/2's compliment</li>
                     </ul>
                     
                     <h5>Applications:</h5>
@@ -147,12 +144,12 @@ const CompArc = () => {
                     </ul>
                     
                     <h5>Key terms:</h5>
-                    <p>Word size, byte ordering, memory alignment, virtual memory, physical address, memory latency, memory bandwidth, memory wall.</p>
+                    <p>Byte ordering, memory alignment, ISA, virtual memory, physical address, endianness, compliment.</p>
                   </div>
                 )}
               </div>
 
-              {/* Unit 3 - Assembly */}
+              {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
                   <h3 className="subsection-title">Unit 3: Assembly Language</h3>
@@ -187,18 +184,17 @@ const CompArc = () => {
                     <ul>
                       <li>Immediate: MOV EAX, 42</li>
                       <li>Register: MOV EAX, EBX</li>
-                      <li>Direct: MOV EAX, [0x1234]</li>
-                      <li>Register Indirect: MOV EAX, [EBX]</li>
-                      <li>Indexed: MOV EAX, [EBX+ESI*4+8]</li>
+                      <li>Direct: MOV (0x1234), EAX </li>
+                      <li>Register Indirect: MOV (EAX), EBX</li>
+                      <li>Indexed: MOV (EBX+ESI*4+8), EAX</li>
                     </ul>
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Register allocation conflicts</li>
-                      <li>Stack frame management</li>
-                      <li>Parameter passing conventions</li>
-                      <li>Preserving registers across calls</li>
-                      <li>Optimizing instruction sequences</li>
+                      <li>Determining output of each assembly line</li>
+                      <li>Converting C code to assembly</li>
+                      <li>Selecting correct addressing mode</li>
+                      <li>Determining functionality of assembly program</li>
                     </ul>
                     
                     <h5>Applications:</h5>
@@ -210,12 +206,12 @@ const CompArc = () => {
                     </ul>
                     
                     <h5>Key terms:</h5>
-                    <p>Opcode, operand, calling convention, stack frame, ABI, instruction pointer, displacement, base pointer.</p>
+                    <p>Opcode, operand, calling convention, stack frame, instruction pointer, displacement, base pointer.</p>
                   </div>
                 )}
               </div>
 
-              {/* Unit 4 - Digital Logic */}
+              {/* Unit 4 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
                   <h3 className="subsection-title">Unit 4: Digital Logic</h3>
@@ -248,11 +244,11 @@ const CompArc = () => {
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Race conditions in sequential circuits</li>
-                      <li>Hazards in combinational logic</li>
-                      <li>Clock skew issues</li>
-                      <li>State machine minimization</li>
-                      <li>Timing constraints</li>
+                      <li>Drawing logic gates</li>
+                      <li>Finding best minterm of K-map's</li>
+                      <li>Generating transition table from FSM</li>
+                      <li>Determining output of combinational circuit</li>
+
                     </ul>
                     
                     <h5>Applications:</h5>
@@ -264,12 +260,12 @@ const CompArc = () => {
                     </ul>
                     
                     <h5>Key terms:</h5>
-                    <p>Propagation delay, setup/hold time, glitch, metastability, fan-out, truth table, state diagram, clock domain.</p>
+                    <p>Truth table, state diagram, clock cycle, flip-flop, sequential, logic gate, minterm</p>
                   </div>
                 )}
               </div>
 
-              {/* Unit 5 - Caching */}
+              {/* Unit 5 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit5')}>
                   <h3 className="subsection-title">Unit 5: Caching</h3>
@@ -307,11 +303,9 @@ const CompArc = () => {
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Cache thrashing</li>
-                      <li>False sharing in multi-core</li>
-                      <li>Cache coherence protocols</li>
-                      <li>Virtual vs physical addressing</li>
-                      <li>TLB interactions</li>
+                      <li>Cache simulation</li>
+                      <li>Selecting proper replacement method</li>
+                      <li>Determining set count, tag bits, and offset bits</li>
                     </ul>
                     
                     <h5>Applications:</h5>
@@ -331,7 +325,7 @@ const CompArc = () => {
           )}
         </div>
 
-        {/* Definitions Section - Completed */}
+        {/* Definitions Section */}
         <div className="section">
           <div className="section-header-container" onClick={() => toggleSection('definitions')}>
             <h2 className="section-title">Definitions</h2>
@@ -357,9 +351,7 @@ const CompArc = () => {
                 <dt>Instruction Set Architecture (ISA)</dt>
                 <dd>The part of computer architecture that defines the set of instructions the processor can execute, including registers, addressing modes, and data types.</dd>
                 
-                <dt>Pipeline</dt>
-                <dd>A technique where multiple instructions are overlapped in execution to improve processor throughput.</dd>
-                
+
                 <dt>Cache Hit/Miss</dt>
                 <dd>A hit occurs when requested data is found in cache, while a miss requires fetching from slower memory.</dd>
                 
@@ -378,14 +370,7 @@ const CompArc = () => {
                 <dt>Memory Alignment</dt>
                 <dd>The requirement that data objects in memory begin at addresses that are multiples of their size.</dd>
                 
-                <dt>TLB (Translation Lookaside Buffer)</dt>
-                <dd>A cache that stores recent translations of virtual memory addresses to physical addresses.</dd>
-                
-                <dt>Hazard</dt>
-                <dd>A situation in pipelined processors where the next instruction cannot execute in the following clock cycle.</dd>
-                
-                <dt>Speculative Execution</dt>
-                <dd>An optimization technique where a processor executes instructions before knowing whether they are needed.</dd>
+
               </dl>
             </div>
           )}
