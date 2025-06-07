@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import YT from '../yt';
 
 const CompArc = () => {
   // Section logic
@@ -90,6 +91,25 @@ const CompArc = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Pointer, dereference, memory allocation, struct, union, typedef, header file, preprocessor directive.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="wDUiDd3KmAA"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="DplxIq0mc_Y"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="1eyf1-RU_eg"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="7daqauCVJZg"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="MQIF-WMUOL8"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -145,6 +165,25 @@ const CompArc = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Byte ordering, memory alignment, ISA, virtual memory, physical address, endianness, compliment.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="H0xGKKpKaRE"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="Z3mswCN2FJs"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="RuKkePyo9zk"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="FFDMzbrEXaE"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="T1C9Kj_78ek"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -207,6 +246,19 @@ const CompArc = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Opcode, operand, calling convention, stack frame, instruction pointer, displacement, base pointer.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="LdWU8JEfPhg"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="L1ung0wil9Y"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="yOyaJXpAYZQ"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>

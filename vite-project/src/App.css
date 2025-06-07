@@ -183,10 +183,18 @@ h1, h2{
   transition: 1s;
 }
 
+.subsection-title{
+  border-radius: 10px;
+  padding: 5px;
+  transition: 1s;
+}
+
 .subsection-title:hover{
   color: white;
   transition: 1s;
   cursor: pointer;
+  background-color: #ff000053;
+  
 }
 
 .arrow-icon {
