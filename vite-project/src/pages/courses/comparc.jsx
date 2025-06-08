@@ -313,6 +313,25 @@ const CompArc = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Truth table, state diagram, clock cycle, flip-flop, sequential, logic gate, minterm</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="Q9gmAgwT6o8"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="RO5alU6PpSU"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="GRjLp6GXoqQ"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="-aQH0ybMd3U"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="kb-Ww8HaHuE"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -370,6 +389,19 @@ const CompArc = () => {
                     
                     <h5>Key terms:</h5>
                     <p>Cache line, tag, index, offset, dirty bit, valid bit, inclusive/exclusive cache, snooping, MESI protocol.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="6FyXURRVmR0"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="p2DReFbW35c"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="A0vR-ks3hsQ"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
