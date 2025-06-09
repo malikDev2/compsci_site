@@ -66,8 +66,8 @@ const CompArc = () => {
                     <ul>
                       <li><strong>Pointers:</strong> Direct memory manipulation with *, & operators</li>
                       <li><strong>Memory Management:</strong> malloc(), calloc(), free()</li>
-                      <li><strong>Structures:</strong> struct keyword and -> operator</li>
-                      <li><strong>Bit Operations:</strong> &, |, ^, ~, bit shifting </li>
+                      <li><strong>Structures:</strong> struct keyword and -&gt; operator</li>
+                      <li><strong>Bit Operations:</strong> &, |, ^, ~, &lt;&lt;, &gt;&gt; </li>
                       <li><strong>File I/O:</strong> fopen(), fread(), fwrite(), fclose()</li>
                       <li><strong>Strings:</strong> Null-terminated char arrays</li>
                       <li><strong>Preprocessor:</strong> #include, #define, macros</li>
