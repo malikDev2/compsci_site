@@ -87,10 +87,10 @@ const Intro = () => {
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Integer division vs floating-point division</li>
-                      <li>String immutability</li>
-                      <li>Type mismatch errors</li>
-                      <li>Scope and lifetime of variables</li>
+                      <li>Programming arithmetic</li>
+                      <li>Printing and returning code</li>
+                      <li>Declaring variables</li>
+                      <li>Writing simple methods/functions</li>
                     </ul>
                     
                     <h5>Key terms:</h5>
@@ -152,9 +152,8 @@ const Intro = () => {
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Off-by-one errors in loops</li>
-                      <li>Infinite loops</li>
-                      <li>Short-circuit evaluation</li>
+                      <li>Creating for/while loops</li>
+                      <li>Implementing if statements</li>
                       <li>Complex boolean expressions</li>
                     </ul>
                     
@@ -220,12 +219,29 @@ const Intro = () => {
                     <ul>
                       <li>Proper access control</li>
                       <li>Method signature matching in overriding</li>
-                      <li>Constructor chaining</li>
+                      <li>Creating getters and setters</li>
                       <li>Object casting</li>
+                      <li>Utilizing 'this' and 'super' keywords</li>
                     </ul>
                     
                     <h5>Key terms:</h5>
                     <p>Encapsulation, inheritance, polymorphism, superclass, subclass, method signature, method overriding, abstract class, interface.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="pgBk8HC7jbU"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="Zs342ePFvRI"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="6wVmqY-CrGM"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="Qb_NUn0TSAU"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -268,14 +284,27 @@ const Intro = () => {
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Array index out of bounds</li>
+                      <li>Index out of bounds errors</li>
                       <li>Reference vs value semantics</li>
-                      <li>Shallow vs deep copying</li>
+                      <li>Array vs ArrayList syntax</li>
                       <li>Algorithm efficiency</li>
                     </ul>
                     
                     <h5>Key terms:</h5>
                     <p>Element, index, bounds, traversal, algorithm, pass-by-reference, arraylist, multidimensional array.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="ei_4Nt7XWOw"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="NbYgm0r7u6o"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="w-9ZTeO7q_E"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
@@ -313,20 +342,28 @@ const Intro = () => {
                     <h5>Recursion with Data Structures:</h5>
                     <ul>
                       <li>Recursive array processing</li>
-                      <li>Linked list traversal</li>
-                      <li>Tree traversals (preorder, inorder, postorder)</li>
+                      <li>Linked list & Tree traversal (Covered in data structures)</li>
                     </ul>
                     
                     <h5>Problems encountered:</h5>
                     <ul>
-                      <li>Missing base case leading to stack overflow</li>
-                      <li>Excessive memory usage</li>
-                      <li>Difficulty tracing execution</li>
+                      <li>Solving problems recursiveley</li>
+                      <li>Counting recursive iterations</li>
                       <li>Identifying recursive opportunities</li>
                     </ul>
                     
                     <h5>Key terms:</h5>
                     <p>Base case, recursive case, call stack, stack frame, tail recursion, divide-and-conquer, backtracking.</p>
+
+                    <h5>Videos:</h5>
+                    <div className="video-row">
+                      <div className="video-wrapper">
+                        <YT videoId="k-7jJP7QFEM"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="_mClihsGtjY"/>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
