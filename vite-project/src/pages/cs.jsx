@@ -5,18 +5,11 @@ const Cs = () => {
     const [selectedType, setSelectedType] = useState('all');
     const courses = [
         {
-            name: 'AP Computer Science A (Intro to Computer Science)', 
+            name: 'Intro to Computer Science (AP Computer Science A)', 
             type: 'programming', 
             color: 'rgb(77, 208, 255)', 
             body: 'Introductory comp-sci course taught in Java. Introduces students to basic data types, arrays, loops, user input, and sorts.',
             path: 'intro-compsci'
-        },
-        {
-            name: 'AP Computer Science Principales', 
-            type: 'programming', 
-            color: 'rgb(55, 251, 37)', 
-            body: 'Highschool course that teaches basic programming through psuedo-code and python. Also covers topics such as internet safety and cybersecurity to give students a better understanding of computing.',
-            path: 'ap-csp'
         },
         {
             name: 'Data Structures', 
