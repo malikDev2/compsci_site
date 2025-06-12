@@ -220,6 +220,7 @@ const Calculus = () => {
                         <ul>
                           <li><strong>Disk Method:</strong> V = π∫[R(x)]² dx</li>
                           <li><strong>Washer Method:</strong> V = π∫([R(x)]² - [r(x)]²) dx</li>
+                          <li><strong>Shell Method:</strong> V = 2π∫[x*f(x)] dx</li>
                         </ul>
                       </li>
                       <li>Average value of a function</li>
@@ -255,6 +256,9 @@ const Calculus = () => {
                       </div>
                       <div className="video-wrapper">
                         <YT videoId="SAHSVg7Jw_A"/>
+                      </div>
+                      <div className="video-wrapper">
+                        <YT videoId="D5sT1br9soI"/>
                       </div>
                     </div>
 
@@ -299,6 +303,10 @@ const Calculus = () => {
                 
                 <dt>Washer Method</dt>
                 <dd>An extension of the disk method for volumes with hollow centers, using annular rings as cross-sections.</dd>
+
+                <dt>Shell Method</dt>
+                <dd>A method for finding volumes of revolution by summing cylindrical shells formed by slicing parallel to the axis of rotation.</dd>
+
               </dl>
             </div>
           )}

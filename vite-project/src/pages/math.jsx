@@ -13,7 +13,7 @@ const Math = () => {
     <Link to="calc2" className="linkdiv">
     <div className="language" style={{ backgroundColor: 'rgb(245, 20, 230)' }}>
         <h2>Calculus II</h2>
-        <h4>The second course in the calculus series. Dives deeper into integration, lots of conversion/diversion tests, and introduces students to polar coordinates.</h4>
+        <h4>The second course in the calculus series. Dives deeper into integration, explores sequences/series, and introduces students to polar coordinates.</h4>
     </div>
     </Link>
     <Link to="linear" className="linkdiv">

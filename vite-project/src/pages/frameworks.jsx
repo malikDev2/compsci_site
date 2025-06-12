@@ -31,10 +31,18 @@ const Frameworks = () => {
             path: 'express'
         },
         { 
+            name: 'Jupyter Notebook', 
+            category: 'data', 
+            language: 'Python',
+            color: 'rgba(255, 94, 0, 0.89)', 
+            body: 'Python environment for data analysis. Utilizes libaries such as pandas, matplotlib, and seaborn.',
+            path: ''
+        },
+        { 
             name: 'Next.js', 
             category: 'fullstack', 
             language: 'JavaScript',
-            color: 'rgba(0, 0, 0, 0.9)', 
+            color: 'rgba(0, 0, 0, 0.51)', 
             body: 'A React-based framework supporting server-side rendering (SSR) and static site generation (SSG). Developed by Vercel, it simplifies production-ready React applications with built-in routing and optimizations.',
             path: 'next'
         },
