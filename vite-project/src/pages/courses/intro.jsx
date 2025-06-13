@@ -36,7 +36,7 @@ const Intro = () => {
           {expandedSections.description && (
             <div className="section-content">
               <p>Introduction to Computer Science provides foundational knowledge of programming and computational thinking using Java. This course covers programming concepts, problem-solving techniques, and object-oriented design principles aligned with the AP Computer Science A curriculum.</p>
-              <p>Students will learn to design, implement, and analyze programs while preparing for the AP exam. The course emphasizes developing logical reasoning skills applicable to future computer science studies.</p>
+              <p>Students will learn to design, implement, and analyze programs in Java. The course emphasizes developing logical reasoning skills applicable to future computer science studies.</p>
             </div>
           )}
         </div>

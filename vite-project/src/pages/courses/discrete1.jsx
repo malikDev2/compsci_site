@@ -152,7 +152,6 @@ const DiscreteI = () => {
                       <li>Determining function properties</li>
                       <li>Constructing bijections between sets</li>
                       <li>Working with power sets and Cartesian products</li>
-                      <li>Proving countability/uncountability</li>
                     </ul>
                     
                     <h5>Applications:</h5>

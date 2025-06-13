@@ -219,13 +219,14 @@ const CompArc = () => {
                       <li>PUSH/POP: Stack operations</li>
                     </ul>
                     
-                    <h5>Addressing Modes:</h5>
+                    <h5>Addressing Modes (Lecture-style Syntax):</h5>
                     <ul>
                       <li>Immediate: MOV EAX, 42</li>
                       <li>Register: MOV EAX, EBX</li>
                       <li>Direct: MOV (0x1234), EAX </li>
                       <li>Register Indirect: MOV (EAX), EBX</li>
-                      <li>Indexed: MOV (EBX+ESI*4+8), EAX</li>
+                      <li>Indexed: MOV 8(EBX,ESI), EAX</li>
+                      <li>Scaled Indexed: MOV (EBX, EDX, 4), EAX</li>
                     </ul>
                     
                     <h5>Problems encountered:</h5>
