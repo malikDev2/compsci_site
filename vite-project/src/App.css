@@ -313,3 +313,17 @@ h1{
   height: 100%;
   border: none;
 }
+
+.tooldiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  background: rgba(255, 255, 255, 0.401);
+  width: 60%;
+  margin: 10px;
+  border-radius: 40px;
+  padding: 20px;
+}

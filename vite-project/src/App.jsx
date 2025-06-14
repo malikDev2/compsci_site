@@ -26,6 +26,7 @@ import Intro from "./pages/courses/intro"
 import DataStruct from "./pages/courses/datastruct"
 import CompArc from "./pages/courses/comparc";
 import DiscreteI from "./pages/courses/discrete1";
+import LeetCode from "./pages/resources/leetcode";
 
 
 
@@ -65,6 +66,7 @@ function App() {
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
         <Route path="/tools/devtools" element={<Devtools/>}/>
         <Route path="/tools/resources" element={<Resources/>}/>
+        <Route path="/tools/resources/leetcode" element={<LeetCode/>}/>
       </Routes>
     </BrowserRouter>
     
