@@ -336,3 +336,7 @@ h1{
   color: white;
   transition: 1s;
 }
+
+.language h4{
+  text-align: center;
+}

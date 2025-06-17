@@ -65,6 +65,9 @@ const Frameworks = () => {
     return (
         <>
             <h1>Frameworks</h1>
+            <Link to="/tools" className="L">
+                <button className="divbut2">Back</button>
+            </Link>
             <div className="category">
                 <h2>Category:</h2>
                 <button onClick={() => setSelectedCategory('all')}>All</button>

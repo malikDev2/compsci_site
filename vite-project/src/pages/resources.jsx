@@ -50,8 +50,8 @@ const Resources = () => {
         <>
             <div>
                 <h1>Resources</h1>
-                <Link to="/tools">
-                    <button>Back</button>
+                <Link to="/tools" className="L">
+                    <button className="divbut2">Back</button>
                 </Link>
             </div>
 
