@@ -27,6 +27,23 @@ import DataStruct from "./pages/courses/datastruct"
 import CompArc from "./pages/courses/comparc";
 import DiscreteI from "./pages/courses/discrete1";
 import LeetCode from "./pages/resources/leetcode";
+import Lca from "./pages/resources/lca";
+import Solo from "./pages/resources/sololearn";
+import Mimo from "./pages/resources/mimo";
+import Youtube from "./pages/resources/youtube";
+import Express from "./pages/frameworks/express";
+import Jupyter from "./pages/frameworks/jupyter";
+import Next from "./pages/frameworks/next";
+import Node from "./pages/frameworks/node";
+import Reac from "./pages/frameworks/react";
+import Tkinter from "./pages/frameworks/tkinter";
+import Chat from "./pages/devtools/chatgpt";
+import Deepseek from "./pages/devtools/deepseek";
+import Git from "./pages/devtools/git";
+import Github from "./pages/devtools/github";
+import Replit from "./pages/devtools/replit";
+import Vscode from "./pages/devtools/vscode";
+import Word from "./pages/devtools/wordpress";
 
 
 
@@ -64,9 +81,27 @@ function App() {
         <Route path ="/courses/ds" element={<Ds/>}/>
         <Route path="/tools" element={<Tools />}/>
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
+        <Route path="/tools/frameworks/react" element={<Reac/>}/>
+        <Route path="/tools/frameworks/node" element={<Node/>}/>
+        <Route path="/tools/frameworks/express" element={<Express/>}/>
+        <Route path="/tools/frameworks/jupyter" element={<Jupyter/>}/>
+        <Route path="/tools/frameworks/next" element={<Next/>}/>
+        <Route path="/tools/frameworks/tkinter" element={<Tkinter/>}/>
         <Route path="/tools/devtools" element={<Devtools/>}/>
+        <Route path="/tools/devtools/vscode" element={<Vscode/>}/>
+        <Route path="/tools/devtools/git" element={<Git/>}/>
+        <Route path="/tools/devtools/github" element={<Github/>}/>
+        <Route path="/tools/devtools/chatgpt" element={<Chat/>}/>
+        <Route path="/tools/devtools/deepseek" element={<Deepseek/>}/>
+        <Route path="/tools/devtools/replit" element={<Replit/>}/>
+        <Route path="/tools/devtools/wordpress" element={<Word/>}/>
         <Route path="/tools/resources" element={<Resources/>}/>
         <Route path="/tools/resources/leetcode" element={<LeetCode/>}/>
+        <Route path="/tools/resources/sololearn" element={<Solo/>}/>
+        <Route path="/tools/resources/youtube" element={<Youtube/>}/>
+        <Route path="/tools/resources/learncodeacademy" element={<Lca/>}/>
+        <Route path="/tools/resources/github" element={<Github/>}/>
+        
       </Routes>
     </BrowserRouter>
     
