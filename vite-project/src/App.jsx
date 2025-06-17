@@ -27,7 +27,7 @@ import DataStruct from "./pages/courses/datastruct"
 import CompArc from "./pages/courses/comparc";
 import DiscreteI from "./pages/courses/discrete1";
 import LeetCode from "./pages/resources/leetcode";
-import Lca from "./pages/resources/lca";
+import Fcc from "./pages/resources/fcc";
 import Solo from "./pages/resources/sololearn";
 import Mimo from "./pages/resources/mimo";
 import Youtube from "./pages/resources/youtube";
@@ -99,8 +99,9 @@ function App() {
         <Route path="/tools/resources/leetcode" element={<LeetCode/>}/>
         <Route path="/tools/resources/sololearn" element={<Solo/>}/>
         <Route path="/tools/resources/youtube" element={<Youtube/>}/>
-        <Route path="/tools/resources/learncodeacademy" element={<Lca/>}/>
+        <Route path="/tools/resources/freecodecamp" element={<Fcc/>}/>
         <Route path="/tools/resources/github" element={<Github/>}/>
+        <Route path="/tools/resources/mimo" element={<Mimo/>}/>
         
       </Routes>
     </BrowserRouter>

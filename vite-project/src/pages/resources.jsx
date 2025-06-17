@@ -34,11 +34,11 @@ const Resources = () => {
             path: 'youtube'
         },
         { 
-            name: 'LearnCode.academy', 
+            name: 'freeCodeCamp', 
             category: 'website', 
             color: 'rgb(0, 150, 200)', 
             body: 'Specialized web development tutorial channel featuring modern JavaScript frameworks, DevOps, and design patterns. Known for clear project-based tutorials.',
-            path: 'learncodeacademy'
+            path: 'freecodecamp'
         }
     ];
 
