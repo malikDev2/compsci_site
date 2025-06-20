@@ -24,6 +24,9 @@ const Mimo = () =>{
                 <YT videoId="sA7liNyzhvQ"/>
             </div>
         </div>
+        <Link to="/tools/resources" className="L">
+            <button className="divbut3">Back</button>
+        </Link>
     </div>
     </>)
 

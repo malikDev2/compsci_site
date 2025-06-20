@@ -19,6 +19,9 @@ const LeetCode = () => {
                 <YT videoId="IB_F10twtvY"/>
             </div>
         </div>
+        <Link to="/tools/resources" className="L">
+            <button className="divbut3">Back</button>
+        </Link>
     </div>
     </>)
 }

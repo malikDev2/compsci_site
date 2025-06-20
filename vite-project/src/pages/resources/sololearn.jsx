@@ -21,6 +21,9 @@ const Solo = () =>{
                 <YT videoId="4I8OuzLszuo"/>
             </div>
         </div>
+        <Link to="/tools/resources" className="L">
+            <button className="divbut3">Back</button>
+        </Link>
     </div>
     </>)
 
