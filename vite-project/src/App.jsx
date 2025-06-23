@@ -38,7 +38,6 @@ import Node from "./pages/frameworks/node";
 import Reac from "./pages/frameworks/react";
 import Tkinter from "./pages/frameworks/tkinter";
 import Chat from "./pages/devtools/chatgpt";
-import Deepseek from "./pages/devtools/deepseek";
 import Git from "./pages/devtools/git";
 import Github from "./pages/devtools/github";
 import Replit from "./pages/devtools/replit";
@@ -92,7 +91,6 @@ function App() {
         <Route path="/tools/devtools/git" element={<Git/>}/>
         <Route path="/tools/devtools/github" element={<Github/>}/>
         <Route path="/tools/devtools/chatgpt" element={<Chat/>}/>
-        <Route path="/tools/devtools/deepseek" element={<Deepseek/>}/>
         <Route path="/tools/devtools/replit" element={<Replit/>}/>
         <Route path="/tools/devtools/wordpress" element={<Word/>}/>
         <Route path="/tools/resources" element={<Resources/>}/>

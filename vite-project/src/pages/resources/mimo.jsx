@@ -9,7 +9,7 @@ const Mimo = () =>{
         <p>Mimo is an app that teaches users how to program. Mimo hosts tutorials on many of the most used programming languages, as well as featuring career-based lessons.</p>
         <a href="https://mimo.org" target="_blank" style={{color: 'black', textDecoration: 'none'}}>
             <h2>Visit site ↓</h2>
-            <img src={mimo} alt="Leetcode Logo" style={{width: '150px'}}/>
+            <img src={mimo} alt="Mimo Logo" style={{width: '150px'}}/>
         </a>
         <h2>Programming languages</h2>
         <p>Javascript, Typescript, Swift, Html, CSS, SQL, Python</p>

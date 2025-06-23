@@ -34,13 +34,6 @@ const Devtools = () =>{
             path: 'chatgpt'
         },
         {
-            name: 'DeepSeek',
-            category: 'ai',
-            color: 'rgb(0, 102, 204)',
-            body: 'Advanced AI assistant for coding and general knowledge.',
-            path: 'deepseek'
-        },
-        {
             name: 'Replit',
             category: 'editor',
             color: 'rgb(242, 101, 52)',
