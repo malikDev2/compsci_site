@@ -36,7 +36,7 @@ const Frameworks = () => {
             language: 'Python',
             color: 'rgba(255, 94, 0, 0.89)', 
             body: 'Python environment for data analysis. Utilizes libaries such as pandas, matplotlib, and seaborn.',
-            path: ''
+            path: 'jupyter'
         },
         { 
             name: 'Next.js', 
