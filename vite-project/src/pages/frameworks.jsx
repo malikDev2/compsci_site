@@ -39,14 +39,6 @@ const Frameworks = () => {
             path: 'jupyter'
         },
         { 
-            name: 'Next.js', 
-            category: 'fullstack', 
-            language: 'JavaScript',
-            color: 'rgba(0, 0, 0, 0.51)', 
-            body: 'A React-based framework supporting server-side rendering (SSR) and static site generation (SSG). Developed by Vercel, it simplifies production-ready React applications with built-in routing and optimizations.',
-            path: 'next'
-        },
-        { 
             name: 'Tkinter', 
             category: 'GUI', 
             language: 'Python',
