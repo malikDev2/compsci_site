@@ -5,7 +5,7 @@ const Vscode = () =>{
     return(<>
     <div className="tooldiv">
         <h2>Description</h2>
-        <p>Visual Studio Code is the most widely used code editor. Vscode allows development in nearly any programming language or framework. The editor also includes a terminal and downloadable extensions, further enhancing the development process,</p>
+        <p>Visual Studio Code is the most widely used code editor. Vscode allows development in nearly any programming language or framework. The editor also includes a terminal and downloadable extensions, further enhancing the development process.</p>
         
         <a href="https://code.visualstudio.com/" target="_blank" style={{color: 'black', textDecoration: 'none'}}>
             <h2>Visit site ↓</h2>
