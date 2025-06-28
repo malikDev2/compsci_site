@@ -183,6 +183,12 @@ h1, h2{
   transition: 1s;
 }
 
+.section-title:hover{
+  background: rgba(255, 82, 82, 0.788);
+  padding: 10px;
+  border-radius: 20px;
+}
+
 .subsection-title{
   border-radius: 10px;
   padding: 5px;
