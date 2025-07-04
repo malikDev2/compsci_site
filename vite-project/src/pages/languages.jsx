@@ -48,11 +48,11 @@ const Languages = () => {
             path: 'c'
         },
         { 
-            name: 'C#', 
+            name: 'SQL', 
             category: 'high-level', 
             color: 'rgb(150, 27, 227)', 
-            body: 'A statically-typed, object-oriented language developed by Microsoft for the .NET framework. Primarily used in Windows applications, enterprise software, and game development (Unity).',
-            path: 'csharp'
+            body: 'Database based',
+            path: 'sql'
         },
         { 
             name: 'Assembly', 
@@ -62,7 +62,7 @@ const Languages = () => {
             path: 'assembly'
         },
         { 
-            name: 'JSX', 
+            name: 'JSX/TSX', 
             category: 'special', 
             color: 'rgb(34, 20, 232)', 
             body: 'A syntax extension for JavaScript, introduced by React to enable HTML-like templating within code. Transpiles to standard JavaScript and is primarily used in component-based UI frameworks.',

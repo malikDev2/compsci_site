@@ -1,8 +1,7 @@
 import YT from '../yt';
 import { Link } from "react-router-dom";
-import node from "../../assets/nOde.png";
 
-const Csharp = () => {
+const SQL = () => {
   return(<>
 
   <h1>Language</h1>
@@ -31,4 +30,4 @@ const Csharp = () => {
 
 };
 
-export default Csharp;
+export default SQL;

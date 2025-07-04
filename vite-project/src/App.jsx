@@ -14,10 +14,10 @@ import Python from "./pages/languages/python"
 import Java from "./pages/languages/java"
 import Assembly from "./pages/languages/assembly"
 import C from "./pages/languages/c"
-import Csharp from "./pages/languages/csharp"
+import SQL from "./pages/languages/sql"
 import Css from "./pages/languages/css"
 import Js from "./pages/languages/Js"
-import Jsx from "./pages/languages/Jsx"
+import Jsx from "./pages/languages/jsxx"
 import Html from "./pages/languages/html"
 import Calculus from "./pages/courses/calculus"
 import Calculus2 from "./pages/courses/calculus2"
@@ -64,7 +64,7 @@ function App() {
         <Route path="/languages/css" element={<Css/>}/>
         <Route path="/languages/javascript" element={<Js/>}/>
         <Route path="/languages/c" element={<C/>}/>
-        <Route path="/languages/csharp" element={<Csharp/>}/>
+        <Route path="/languages/sql" element={<SQL/>}/>
         <Route path="/languages/assembly" element={<Assembly/>}/>
         <Route path="/languages/jsx" element={<Jsx/>}/>
         <Route path="/courses" element={<Courses />}/>
