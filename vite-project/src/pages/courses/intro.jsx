@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import YT from '../yt';
 
 const Intro = () => {
@@ -430,6 +431,10 @@ const Intro = () => {
             </div>
           )}
         </div>
+        <Link to="/courses/cs" className="L">
+          <button className="divbut">Back</button>
+        </Link>
+        
       </div>
     </>
   );

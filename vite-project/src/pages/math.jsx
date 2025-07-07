@@ -2,8 +2,12 @@ import { Link } from "react-router-dom";
 
 const Math = () => {
     return(<>
+    <div>
     <h1>Math</h1>
-    
+    <Link to="/courses">
+        <button className="divbut3" style={{marginBottom: '10px'}}>Back</button>
+    </Link>
+    </div>
     <Link to="calc1" className="linkdiv">
     <div className="language" style={{ backgroundColor: 'rgb(245, 20, 20)' }}>
         <h2>Calculus I</h2>
@@ -24,9 +28,7 @@ const Math = () => {
     </Link>
     
     
-    <Link to="/courses">
-        <button>back</button>
-    </Link>
+ 
     
     </>);
 }

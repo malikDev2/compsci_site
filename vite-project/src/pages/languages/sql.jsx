@@ -5,7 +5,7 @@ import sql from "../../assets/sql.png";
 const SQL = () => {
   return(<>
 
-  <h1>Language</h1>
+  <h1>SQL</h1>
   <div className="languagediv">
     <h2>Description</h2>
     <p>

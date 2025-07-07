@@ -75,7 +75,6 @@ const Frameworks = () => {
                 <button onClick={() => setSelectedLanguage('all')}>All</button>
                 <button onClick={() => setSelectedLanguage('JavaScript')}>JavaScript</button>
                 <button onClick={() => setSelectedLanguage('Python')}>Python</button>
-                <button onClick={() => setSelectedLanguage('Java')}>Java</button>
             </div>
 
             {framfilter.map((frame, index) => (
@@ -86,9 +85,6 @@ const Frameworks = () => {
                 </div>
                 </Link>
             ))}
-            <Link to="/tools">
-                <button>Back</button>
-            </Link>
         </>
     );
 }

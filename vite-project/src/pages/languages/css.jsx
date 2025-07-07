@@ -5,7 +5,7 @@ import css from "../../assets/css.png";
 const Css = () => {
   return(<>
 
-  <h1>Language</h1>
+  <h1>CSS</h1>
   <div className="languagediv">
     <h2>Description</h2>
     <p>

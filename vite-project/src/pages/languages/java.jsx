@@ -5,7 +5,7 @@ import Jav from "../../assets/java.png";
 const Java = () => {
   return(<>
 
-  <h1>Language</h1>
+  <h1>Java</h1>
   <div className="languagediv">
     <h2>Description</h2>
     <p>

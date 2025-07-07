@@ -5,7 +5,7 @@ import py from "../../assets/python.png";
 const Python = () => {
   return(<>
 
-  <h1>Language</h1>
+  <h1>Python</h1>
   <div className="languagediv">
     <h2>Description</h2>
     <p>

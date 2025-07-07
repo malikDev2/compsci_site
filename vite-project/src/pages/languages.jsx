@@ -49,9 +49,9 @@ const Languages = () => {
         },
         { 
             name: 'SQL', 
-            category: 'high-level', 
+            category: 'db', 
             color: 'rgb(150, 27, 227)', 
-            body: 'Database based',
+            body: 'Domain-specific language used for managing and querying data in relational databases, allowing users to retrieve, insert, update, and delete data with powerful precision.',
             path: 'sql'
         },
         { 
@@ -65,7 +65,7 @@ const Languages = () => {
             name: 'JSX/TSX', 
             category: 'special', 
             color: 'rgb(34, 20, 232)', 
-            body: 'A syntax extension for JavaScript, introduced by React to enable HTML-like templating within code. Transpiles to standard JavaScript and is primarily used in component-based UI frameworks.',
+            body: 'JSX (JavaScript XML) and TSX (TypeScript XML) are syntactic extensions that allow developers to write HTML-like code within JavaScript or TypeScript, commonly used in React to describe UI components declaratively.',
             path: 'jsx'
         },
     ];
@@ -78,7 +78,6 @@ const Languages = () => {
         <>
             <div>
                 <h1>Languages</h1>
-                <button>switch mode</button>
                 <Link to="/">
                     <button className="divbut2">Back</button>
                 </Link>
@@ -90,6 +89,7 @@ const Languages = () => {
                 <button onClick={() => setSelectedCategory('high-level')}>High-Level Language</button>
                 <button onClick={() => setSelectedCategory('low-level')}>Low-Level Language</button>
                 <button onClick={() => setSelectedCategory('scripting-styling')}>Scripting/Styling Language</button>
+                <button onClick={() => setSelectedCategory('db')}>Database</button>
                 <button onClick={() => setSelectedCategory('special')}>Special Language</button>
             </div>
 

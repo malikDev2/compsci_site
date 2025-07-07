@@ -74,9 +74,7 @@ const Devtools = () =>{
             </div>
         </Link>
     ))}
-    <Link to="/tools">
-        <button>Back</button>
-    </Link>
+    
     </>)
 }
 

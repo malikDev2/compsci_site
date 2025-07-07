@@ -4,7 +4,7 @@ import jsts from "../../assets/jsts.png";
 
 const Jsx = () => {
   return(<>
-  <h1>Language</h1>
+  <h1>JSX/TSX</h1>
 
   <div className="languagediv">
     <h2>Description</h2>

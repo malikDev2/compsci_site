@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import YT from '../yt';
 
 const Linear = () => {
@@ -499,6 +500,9 @@ const Linear = () => {
             </div>
           )}
         </div>
+        <Link to="/courses/math" className="L">
+          <button className="divbut">Back</button>
+        </Link>
       </div>
     </>
   );
