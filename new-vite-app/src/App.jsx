@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./pages/navbar";
 import Home from "./pages/home";
 import Languages from "./pages/languages";
@@ -53,7 +53,7 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />}/>
@@ -102,7 +102,7 @@ function App() {
         <Route path="/tools/resources/mimo" element={<Mimo/>}/>
         
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
   )
 }
