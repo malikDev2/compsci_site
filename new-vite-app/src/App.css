@@ -5,39 +5,73 @@ html{
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: transparent;
+  overflow-x: auto; /* Prevent clipping on small screens */
 }
 
-
+/* NAV UL (container for links) */
 nav > ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;               /* Default wrap for medium screens */
+  justify-content: center;
+  align-items: center;
   gap: 50px;
   padding: 10px;
   margin: 0;
   border: 2px solid #000000;
   border-radius: 4px;
   background: rgba(255, 245, 245, 0.378);
-  transition: 1s;
+  transition: padding 1s, background 1s;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
-nav ul:hover{
+/* UL Hover effect */
+nav ul:hover {
   background: rgb(255, 255, 255);
-  transition: 1s;
   padding: 15px;
 }
 
+/* INDIVIDUAL LINKS */
 nav ul li a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  padding: 5px 0; /* Vertical padding only */
-  white-space: nowrap; /* Prevents text wrapping */
+  padding: 5px 0;
+  white-space: nowrap;
 }
 
+/* Hover effect for links */
 nav ul li a:hover {
   color: #007bff;
 }
+
+/* INDIVIDUAL LI alignment fallback */
+nav ul li {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+/* RESPONSIVE 2x2 ON SMALL SCREENS */
+@media (max-width: 500px) {
+  nav > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 15px;
+    padding: 15px;
+  }
+
+  nav ul li {
+    width: 100%; /* Ensures full cell width */
+  }
+}
+
 
 
 
