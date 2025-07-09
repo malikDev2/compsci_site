@@ -6,7 +6,7 @@ import courseLogo from '../assets/courselogo.png';
 
 const Home = () =>{
     return <>
-    <h1>Computer science catalog</h1>
+    <h1>Computer Science Guide</h1>
     <div className="home" >
         <Link to="courses" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="homediv" style={{backgroundColor: 'rgb(255, 123, 100)'}}>
