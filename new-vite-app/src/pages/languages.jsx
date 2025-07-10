@@ -78,8 +78,8 @@ const Languages = () => {
         <>
             <div>
                 <h1>Languages</h1>
-                <Link to="/">
-                    <button className="divbut2">Back</button>
+                <Link to="/" className="L">
+                    <button className="divbut2">🢀</button>
                 </Link>
             </div>
 

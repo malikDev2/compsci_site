@@ -304,18 +304,27 @@ h1{
   display: flex;
   margin-top: 100px;
   transition: 1s;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .divbut2{
   transition: 1s;
   border-radius: 100px;
   padding: 5px;
+  width: 50px;
   
 }
 
 .divbut3{
   transition: 1s;
   border-radius: 100px;
+  width: 40px;
+  height: 25px;
   padding: 5px;
   border: none;
   margin-top: 20px;
@@ -324,15 +333,15 @@ h1{
 
 
 .divbut:hover, .divbut2:hover, .divbut3:hover{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  display: flex;
+  justify-content: center;
   background: rgb(255, 0, 0);
   transition: 1s;
   cursor: pointer;
   box-shadow: 4px 4px 10px black;
 }
+
+
 
 .L{
   text-decoration: none;
@@ -375,7 +384,7 @@ h1{
   align-items: center;
   align-self: center;
   justify-self: center;
-  background: rgba(255, 255, 255, 0.401);
+  background: rgb(215, 215, 215);
   width: 800px;
   margin: 10px;
   border-radius: 40px;
@@ -383,20 +392,25 @@ h1{
   transition: 1s;
 }
 
+@media (max-width: 900px) {
+  .tooldiv, .languagediv {
+    width: 90%; 
+  }
+}
+
 .tooldiv p{
   text-align: center;
 }
 
 .tooldiv:hover{
-  background: rgba(255, 255, 255, 0.786);
+  background: rgb(229, 229, 229);
   padding: 40px;
   border: 5px solid rgba(0, 81, 255, 0.488);
   transition: 1s;
 }
 
 .languagediv:hover{
-  background: rgba(255, 255, 255, 0.786);
-  padding: 40px;
+  background: rgb(229, 229, 229);
   border: 5px solid rgba(255, 0, 106, 0.488);
   transition: 1s;
 

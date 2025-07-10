@@ -55,7 +55,7 @@ const Python = () => {
     </div>
 
     <Link to="/languages" className="L">
-      <button className="divbut3">Back</button>
+      <button className="divbut3">🢀</button>
     </Link>
   </div>
 
