@@ -28,7 +28,7 @@ const Tools = () => {
         </Link>  
     </div>
     <Link to="/" className="L">
-        <button className="divbut">🢀</button>
+        <button className="divbut"> 🢀</button>
     </Link>
     </>);
 }
