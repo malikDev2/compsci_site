@@ -393,29 +393,27 @@ h1{
   transition: 1s;
 }
 
+.tooldiv{
+  border: 5px solid rgb(0, 234, 255);
+}
+
+.languagediv{
+  border: 5px solid rgb(255, 0, 157)
+}
+
 @media (max-width: 900px) {
   .tooldiv, .languagediv {
     width: 90%; 
   }
 }
 
+
+
 .tooldiv p{
   text-align: center;
 }
 
-.tooldiv:hover{
-  background: rgb(229, 229, 229);
-  padding: 40px;
-  border: 5px solid rgba(0, 81, 255, 0.488);
-  transition: 1s;
-}
 
-.languagediv:hover{
-  background: rgb(229, 229, 229);
-  border: 5px solid rgba(255, 0, 106, 0.488);
-  transition: 1s;
-
-}
 
 .tooldiv h2{
   transition: 1s;
