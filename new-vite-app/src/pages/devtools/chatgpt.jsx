@@ -6,7 +6,7 @@ const Chat = () =>{
     return(<>
     <div className="tooldiv">
         <h2>Description</h2>
-        <p>ChatGPT is a generative AI tool developed by OpenAI. ChatGPT assists computer science students by explaining complicated topics, reviewing homework problems, fixing programming bugs, and through many other ways. As AI continues to grow in power, it's capabilites will only expand. Other generative AI platforms such as Claude and Deepseek are used in the same manner.</p>
+        <p>ChatGPT is a generative AI tool developed by OpenAI. ChatGPT assists computer science students by explaining complicated topics, reviewing homework problems, fixing programming bugs, and through many other ways. As AI continues to grow in power, its capabilites will only expand. Other generative AI platforms such as Claude and Deepseek are used in the same manner.</p>
         
         <a href="https://chatgpt.com/" target="_blank" style={{color: 'black', textDecoration: 'none'}}>
             <h2>Visit site ↓</h2>

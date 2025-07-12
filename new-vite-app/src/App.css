@@ -408,6 +408,10 @@ h1{
   .tooldiv, .languagediv {
     width: 90%; 
   }
+
+  .video-wrapper{
+    max-width: 300px;
+  }
 }
 
 
