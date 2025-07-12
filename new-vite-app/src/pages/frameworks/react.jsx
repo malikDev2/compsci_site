@@ -15,7 +15,7 @@ const Reac = () => {
                 </a>
 
                 <h2>Code Snippet</h2>
-                <pre style={{ backgroundColor: '#f4f4f402', padding: '1em', borderRadius: '8px', overflowX: 'auto' }}>
+                <pre className="code-snippet" style={{ backgroundColor: '#f4f4f402', padding: '1em', borderRadius: '8px', overflowX: 'auto' }}>
 <code>{`import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 

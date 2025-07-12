@@ -406,7 +406,8 @@ h1{
 
 @media (max-width: 900px) {
   .tooldiv, .languagediv {
-    width: 90%; 
+    width: 90%;
+    padding: 0; 
   }
 
   .video-wrapper{
@@ -433,5 +434,16 @@ h1{
 
 .language h4{
   text-align: center;
+}
+
+.code-snippet {
+  background-color: #f4f4f4;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 0.9em;
+  max-width: 100%;
 }
 

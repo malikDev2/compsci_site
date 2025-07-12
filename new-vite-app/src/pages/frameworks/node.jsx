@@ -15,7 +15,7 @@ const Node = () => {
                 </a>
 
                 <h2>Code Snippet</h2>
-                <pre style={{ backgroundColor: '#f4f4f401', padding: '1em', borderRadius: '8px', overflowX: 'auto' }}>
+                <pre className="code-snippet" style={{ backgroundColor: '#f4f4f401', padding: '1em', borderRadius: '8px', overflowX: 'auto' }}>
 <code>{`// Basic Express server in Node.js
 const express = require('express');
 const app = express();

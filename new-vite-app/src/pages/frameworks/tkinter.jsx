@@ -15,7 +15,7 @@ const Tkinter = () => {
                 </a>
 
                 <h2>Code Snippet</h2>
-                <pre style={{ backgroundColor: '#f4f4f401', padding: '1em', borderRadius: '8px', overflowX: 'auto' }}>
+                <pre className="code-snippet" style={{ backgroundColor: '#f4f4f401', padding: '1em', borderRadius: '8px', overflowX: 'auto' }}>
 <code>{`# Simple Tkinter GUI with a button and label
 import tkinter as tk
 
