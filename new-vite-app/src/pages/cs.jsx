@@ -41,7 +41,7 @@ const Cs = () => {
     return(<>
     <h1>Computer Science</h1>
     <Link to="/courses" className="L">
-        <button className="divbut3"><strong>⇦</strong></button>
+        <button className="divbut2">Back</button>
     </Link>
     <div className="category">
         <h3>Category:</h3>

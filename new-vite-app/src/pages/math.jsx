@@ -4,12 +4,12 @@ const Math = () => {
     return(<>
     <div>
     <h1>Math</h1>
-    <Link to="/courses">
-        <button className="divbut3" style={{marginBottom: '10px'}}>Back</button>
+    <Link to="/courses" className="L">
+        <button className="divbut2" >Back</button>
     </Link>
     </div>
     <Link to="calc1" className="linkdiv">
-    <div className="language" style={{ backgroundColor: 'rgb(245, 20, 20)' }}>
+    <div className="language" style={{ backgroundColor: 'rgb(245, 20, 20)', marginTop: "10px" }}>
         <h2>Calculus I</h2>
         <h4>The first of the calculus courses. Main topics include limits, derivatives, and basic integration.</h4>   
     </div>

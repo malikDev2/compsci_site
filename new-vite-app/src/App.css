@@ -1,5 +1,8 @@
 html{
-  background: linear-gradient(90deg, rgb(102, 20, 254), rgb(188, 43, 255))
+  background: linear-gradient(90deg, rgb(102, 20, 254), rgb(188, 43, 255));
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  font-size: 90%;
+  
 }
 
 nav {
