@@ -416,6 +416,7 @@ p{
 @media (max-width: 900px) {
   .tooldiv, .languagediv {
     width: 90%;
+    padding: 0;
     padding-bottom: 10px; 
   }
 
