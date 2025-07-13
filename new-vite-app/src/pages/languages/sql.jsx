@@ -21,7 +21,7 @@ const SQL = () => {
            
 
     <h2>Syntax</h2>
-    <ul>
+    <ul className="code-snippet3">
       <li><strong>Creating Tables:</strong>
         <pre>{`CREATE TABLE users (
   id INT PRIMARY KEY,

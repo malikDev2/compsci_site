@@ -23,32 +23,32 @@ const Jsx = () => {
     <h3>JSX Syntax Examples</h3>
     <ul>
       <li><strong>Component Definition:</strong>
-        <pre>{`function Welcome(props) {
+        <pre className="code-snippet2">{`function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }`}</pre>
       </li>
       <li><strong>Rendering Elements:</strong>
-        <pre>{`const element = <button>Click Me</button>;`}</pre>
+        <pre className="code-snippet2">{`const element = <button>Click Me</button>;`}</pre>
       </li>
       <li><strong>Event Handling:</strong>
-        <pre>{`<button onClick={() => alert('Clicked!')}>Click</button>`}</pre>
+        <pre className="code-snippet2">{`<button onClick={() => alert('Clicked!')}>Click</button>`}</pre>
       </li>
       <li><strong>Embedding Expressions:</strong>
-        <pre>{`<p>{5 + 3}</p>`}</pre>
+        <pre className="code-snippet2">{`<p>{5 + 3}</p>`}</pre>
       </li>
     </ul>
 
     <h3>TSX Syntax Differences</h3>
-    <ul>
+    <ul className="code-snippet3">
       <li><strong>Typed Props:</strong>
-        <pre>{`type Props = { name: string };
+        <pre className="">{`type Props = { name: string };
 
 function Welcome({ name }: Props) {
   return <h1>Hello, {name}</h1>;
 }`}</pre>
       </li>
       <li><strong>State Typing:</strong>
-        <pre>{`const [count, setCount] = useState<number>(0);`}</pre>
+        <pre className="">{`const [count, setCount] = useState<number>(0);`}</pre>
       </li>
       <li><strong>Event Types:</strong>
         <pre>{`const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
