@@ -14,14 +14,13 @@ nav {
   top: 0;
   z-index: 1000;
   background: transparent;
-  overflow-x: auto; /* Prevent clipping on small screens */
+  overflow-x: auto; 
 }
 
-/* NAV UL (container for links) */
 nav > ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;               /* Default wrap for medium screens */
+  flex-wrap: wrap;             
   justify-content: center;
   align-items: center;
   gap: 50px;
@@ -35,13 +34,13 @@ nav > ul {
   box-sizing: border-box;
 }
 
-/* UL Hover effect */
+
 nav ul:hover {
   background: rgb(255, 255, 255);
   padding: 15px;
 }
 
-/* INDIVIDUAL LINKS */
+
 nav ul li a {
   text-decoration: none;
   color: #000000;
@@ -50,28 +49,26 @@ nav ul li a {
   white-space: nowrap;
 }
 
-/* Hover effect for links */
+
 nav ul li a:hover {
   color: #007bff;
 }
 
-/* INDIVIDUAL LI alignment fallback */
 nav ul li {
   flex-shrink: 0;
   text-align: center;
 }
 
-/* RESPONSIVE 2x2 ON SMALL SCREENS */
 @media (max-width: 500px) {
   nav > ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
     padding: 15px;
   }
 
   nav ul li {
-    width: 100%; /* Ensures full cell width */
+    width: 100%; 
   }
 }
 

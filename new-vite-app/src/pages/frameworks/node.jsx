@@ -7,7 +7,9 @@ const Node = () => {
         <>
             <div className="tooldiv">
                 <h2>Description</h2>
-                <p>Node.js is a runtime environment that executes JavaScript outside of a web browser. Node serves as the backbone for JS web development by managing backend and server-side functionality. Key features of Node include its asynchronous structure, high performance from Google's V8 engine, and the Node Package Manager which provides developers with numerous open-source libraries.</p>
+                <p>
+                    Node.js is a runtime environment that executes JavaScript outside of a web browser. Node serves as the backbone for JS web development by managing backend and server-side functionality. Key features of Node include its asynchronous structure, high performance from Google's V8 engine, and the Node Package Manager which provides developers with numerous open-source libraries.
+                </p>
                 
                 <a href="https://nodejs.org/en" target="_blank" style={{ color: 'black', textDecoration: 'none' }}>
                     <h2>Visit site ↓</h2>
@@ -15,32 +17,42 @@ const Node = () => {
                 </a>
 
                 <h2>Code Snippet</h2>
-                <pre className="code-snippet" style={{ backgroundColor: '#f4f4f401', padding: '1em', borderRadius: '8px', overflowX: 'auto' }}>
-<code>{`// Basic Express server in Node.js
-const express = require('express');
-const app = express();
+                <pre
+                    className="code-snippet"
+                    style={{
+                        backgroundColor: '#f4f4f401',
+                        padding: '1em',
+                        borderRadius: '8px',
+                        overflowX: 'auto'
+                    }}
+                >
+<code>{`// Basic vanilla Node.js server 
+const http = require('http');
 const PORT = 3000;
 
-// Middleware
-app.use(express.json());
-
-// Route
-app.get('/', (req, res) => {
-  res.send('Hello from Node.js 🚀');
-});
-
-// Asynchronous example
-app.get('/data', async (req, res) => {
-  try {
-    const fakeData = await Promise.resolve({ msg: 'Async response success!' });
-    res.json(fakeData);
-  } catch (error) {
-    res.status(500).json({ error: 'Something went wrong' });
+const server = http.createServer((req, res) => {
+  if (req.url === '/' && req.method === 'GET') {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Hello from vanilla Node.js 🚀');
+  } else if (req.url === '/data' && req.method === 'GET') {
+    // Example of async handling
+    Promise.resolve({ msg: 'Async response success!' })
+      .then(data => {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(data));
+      })
+      .catch(() => {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Something went wrong' }));
+      });
+  } else {
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.end('Not Found');
   }
 });
 
-app.listen(PORT, () => {
-  console.log(\`Server is running on http://localhost:\${PORT}\`);
+server.listen(PORT, () => {
+  console.log(\`Server running at http://localhost:\${PORT}\`);
 });`}</code>
                 </pre>
 

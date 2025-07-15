@@ -7,6 +7,7 @@ import courseLogo from '../assets/courselogo.png';
 const Home = () =>{
     return <>
     <h1>Computer Science Guide</h1>
+    <h4 style={{justifySelf: 'center', marginLeft: '140px'}}>By: Malik Jacobs</h4>
     <div className="home" >
         <Link to="courses" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="homediv" style={{backgroundColor: 'rgb(255, 123, 100)'}}>
@@ -27,6 +28,7 @@ const Home = () =>{
             </div>
         </Link>
     </div>
+
     </>;
 }
 export default Home;
