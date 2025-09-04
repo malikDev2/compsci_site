@@ -43,6 +43,9 @@ import Github from "./pages/devtools/github";
 import Replit from "./pages/devtools/replit";
 import Vscode from "./pages/devtools/vscode";
 import Word from "./pages/devtools/wordpress";
+import DataO from "./pages/courses/data101";
+import DiscII from "./pages/courses/discrete2";
+import IntroDS from "./pages/courses/introds";
 
 
 
@@ -77,7 +80,11 @@ function App() {
         <Route path="/courses/cs/data-structures" element={<DataStruct/>}/>
         <Route path="/courses/cs/computer-architecture" element={<CompArc/>}/>
         <Route path="/courses/cs/discrete" element={<DiscreteI/>}/>
+        <Route path="/courses/cs/discreteII" element={<DiscII/>}/>
         <Route path ="/courses/ds" element={<Ds/>}/>
+        <Route path ="/courses/ds/data101" element={<DataO/>}/>
+        <Route path ="/courses/ds/introds" element={<IntroDS/>}/>
+
         <Route path="/tools" element={<Tools />}/>
         <Route path="/tools/frameworks" element={<Frameworks/>}/>
         <Route path="/tools/frameworks/react" element={<Reac/>}/>

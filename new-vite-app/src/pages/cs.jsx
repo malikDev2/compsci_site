@@ -31,6 +31,13 @@ const Cs = () => {
             color: 'rgb(255, 213, 77)', 
             body: 'Non-programming, logic based couse. Topics include logic operations, set notation, proofs, and state machines.',
             path: 'discrete'
+        },
+        {
+            name: 'Intro to Discrete Structures II', 
+            type: 'theory', 
+            color: 'rgba(0, 85, 255, 1)', 
+            body: '-',
+            path: 'discreteII'
         }
     ];
 
