@@ -52,7 +52,7 @@ const DiscII = () => {
               {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
-                  <h3 className="subsection-title">Unit 1: [Title]</h3>
+                  <h3 className="subsection-title">Unit 1: Set Theory</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit1 ? '▼' : '▶'}
                   </span>

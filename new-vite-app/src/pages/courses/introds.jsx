@@ -8,6 +8,7 @@ const IntroDS = () => {
     unit1: false,
     unit2: false,
     unit3: false,
+    unit4: false,
     definitions: false
   });
 
@@ -52,7 +53,7 @@ const IntroDS = () => {
               {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
-                  <h3 className="subsection-title">Unit 1: [Title]</h3>
+                  <h3 className="subsection-title">Unit 1: Introduction to Data Science</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit1 ? '▼' : '▶'}
                   </span>
@@ -68,7 +69,7 @@ const IntroDS = () => {
               {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
-                  <h3 className="subsection-title">Unit 2: [Title]</h3>
+                  <h3 className="subsection-title">Unit 2: Python for Data Science</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit2 ? '▼' : '▶'}
                   </span>
@@ -84,7 +85,7 @@ const IntroDS = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: [Title]</h3>
+                  <h3 className="subsection-title">Unit 3: Probability and Statistics</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -93,6 +94,22 @@ const IntroDS = () => {
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
                     <p>[Unit 3 content goes here...]</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Unit 4 */}
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                  <h3 className="subsection-title">Unit 4: SQL for Data Science</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit4 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit4 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>[Unit 4 content goes here...]</p>
                   </div>
                 )}
               </div>
@@ -112,17 +129,17 @@ const IntroDS = () => {
           {expandedSections.definitions && (
             <div className="section-content">
               <dl>
-                <dt>Matrix</dt>
+                <dt>Function</dt>
                 <dd>[Definition of matrix goes here...]</dd>
                 
-                <dt>Vector</dt>
+                <dt>Data</dt>
                 <dd>[Definition of vector goes here...]</dd>
               </dl>
             </div>
           )}
         </div>
 
-        <Link to="/courses/math" className="L">
+        <Link to="/courses/ds" className="L">
           <button className="divbut">Back</button>
         </Link>
       </div>
