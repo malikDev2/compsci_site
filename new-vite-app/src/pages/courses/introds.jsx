@@ -61,7 +61,17 @@ const IntroDS = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 1 content goes here...]</p>
+                    <p>Overview of what Data Science is, why it's important, and how it came to be.</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>What is Data Science?</li>
+                      <li>History of Data Science</li>
+                      <li>Data Engineer vs Data Scientist vs Data Analyst</li>
+                      <li>Data Science Lifecycle</li>
+                      <li>Ethics in Data Science</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Data science, data analysis, statistics, programming, machine learning, data collection, data extraction, data cleaning, data visualization, R, SQL, Python.</p>
                   </div>
                 )}
               </div>
