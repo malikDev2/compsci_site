@@ -87,7 +87,17 @@ const IntroDS = () => {
                 {expandedSections.unit2 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 2 content goes here...]</p>
+                    <p>Overview of Python and it's applications within Data Science.</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>Python fundamentals</li>
+                      <li>Numpy library</li>
+                      <li>Pandas library</li>
+                      <li>Matplotlib library</li>
+                      <li>Jupyter Notebook</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Python, Numpy, Pandas, Matplotlib, Jupyter, function, variable, data type</p>
                   </div>
                 )}
               </div>
