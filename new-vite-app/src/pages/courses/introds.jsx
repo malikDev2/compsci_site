@@ -113,7 +113,17 @@ const IntroDS = () => {
                 {expandedSections.unit3 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 3 content goes here...]</p>
+                    <p>Overview of probability and statistics, along with some python programming examples.</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>Data Collection</li>
+                      <li>Descriptive Statistics</li>
+                      <li>Probability</li>
+                      <li>Probability Distributions</li>
+                      <li>Inferential Statistics</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Statistics, probability, Bayes, mean, median, mode, standard deviation, variance, </p>
                   </div>
                 )}
               </div>
