@@ -20,7 +20,7 @@ const DiscII = () => {
 
   return (
     <>
-      <h1>Intro to Data Science</h1>
+      <h1>Discrete Structures II</h1>
       <div className="language-div">
         
         {/* Description Section */}
@@ -60,7 +60,20 @@ const DiscII = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 1 content goes here...]</p>
+                    <p>Reintroduction to set theory, with an emphasis on Venn diagrams.</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>Set operators</li>
+                      <li>Set Representation</li>
+                      <li>Cardinality</li>
+                      <li>Power sets</li>
+                      <li>Cartesian product</li>
+                      <li>Venn Diagrams</li>
+                    </ul>
+
+                    <h5>Key terms:</h5>
+                    <p>Set, union, intersection, cross product, difference, subset, power set, cardinality, listing, set-builder, empty set</p>
+
                   </div>
                 )}
               </div>
@@ -68,7 +81,7 @@ const DiscII = () => {
               {/* Unit 2 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit2')}>
-                  <h3 className="subsection-title">Unit 2: [Title]</h3>
+                  <h3 className="subsection-title">Unit 2: Counting</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit2 ? '▼' : '▶'}
                   </span>
