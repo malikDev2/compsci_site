@@ -130,7 +130,7 @@ const IntroDS = () => {
 
               {/* Unit 4 */}
               <div className="subsection">
-                <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
+                <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
                   <h3 className="subsection-title">Unit 4: SQL for Data Science</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit4 ? '▼' : '▶'}
@@ -139,7 +139,26 @@ const IntroDS = () => {
                 {expandedSections.unit4 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 4 content goes here...]</p>
+                    <p>Introduction to structured query language (SQL) and its core operations.</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>Relational databases</li>
+                      <li>Querying with SQL</li>
+                      <li>Operators and Clauses</li>
+                      <li>Join Queries</li>
+                      <li>Subqueries</li>
+                    </ul>
+                    <h5>SQL operators:</h5>
+                    <ul>
+                      <li><b>SELECT:</b> Select a specific column or feature </li>
+                      <li><b>FROM:</b> Database that contains selected data</li>
+                      <li><b>WHERE</b></li>
+                      <li><b>JOIN</b></li>
+                      <li><b>*</b></li> 
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <p>Query, database, subquery, SQL, relational database </p>
+                    
                   </div>
                 )}
               </div>
