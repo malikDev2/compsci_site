@@ -79,9 +79,18 @@ const DiscII = () => {
                       <li><strong>Cardinality (n): </strong>n(A) = 2</li>
                       <li><strong>Difference (-): </strong>A - C = {"{"}1{"}"}</li>
                       <li><strong>Complement ('):</strong> if (U = A U B U C), A' = {"{"}X, Y, 3{"}"}</li>
-                      <li><strong>Cross Product (X):</strong> A X B = {"{"}1, X{"}"}, {"{"}1, Y{"}"}, {"{"}2, X{"}"}, {"{"}2, Y{"}"}</li>
+                      <li><strong>Cross Product (X):</strong> A X B = {"{"}{"{"}1, X{"}"}, {"{"}1, Y{"}"}, {"{"}2, X{"}"}, {"{"}2, Y{"}"}{"}"}</li>
                       <li><strong>Power Set (P): </strong>P(A) = {"{"}{"}"}, {"{"}1{"}"}, {"{"}2{"}"}, {"{"}1, 2{"}"}</li>
+                      <li><strong>De Morgan's Law: </strong> (A U B)' = (A' ∩ B')</li>
                       
+                    </ul>
+
+                    <h5>Listing methods: </h5>
+                    <ul>
+                      S = {"{"}1, 2, 3{"}"}
+                      <li><strong>Listing/Roster:</strong> {"{"}1, 2, 3{"}"}</li>
+                      <li><strong>Description: </strong> The set of natural numbers below 4</li>
+                      <li><strong>Set builder:</strong> {"{"}S | S ∈ N, S &lt; 4 {"}"}</li>
                     </ul>
 
                     <h5>Key terms:</h5>
@@ -102,7 +111,11 @@ const DiscII = () => {
                 {expandedSections.unit2 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 2 content goes here...]</p>
+                    <p>The amount of possibilities a given scenario has</p>
+                    <h5>Key topics: </h5>
+                    <ul>
+                      <li></li>
+                    </ul>
                   </div>
                 )}
               </div>
