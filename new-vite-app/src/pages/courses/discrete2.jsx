@@ -71,6 +71,19 @@ const DiscII = () => {
                       <li>Venn Diagrams</li>
                     </ul>
 
+                    <h5>Set operations:</h5>
+                    <ul>
+                      Set A = {"{"}1, 2{"}"}, Set B = {"{"}X, Y{"}"}, Set C =  {"{"}2, 3{"}"}
+                      <li><strong>Union (U): </strong>A U C = {"{"}1, 2, 3{"}"}</li>
+                      <li><strong>Intersection (∩): </strong>A ∩ C = {"{"}2{"}"} </li>
+                      <li><strong>Cardinality (n): </strong>n(A) = 2</li>
+                      <li><strong>Difference (-): </strong>A - C = {"{"}1{"}"}</li>
+                      <li><strong>Complement ('):</strong> if (U = A U B U C), A' = {"{"}X, Y, 3{"}"}</li>
+                      <li><strong>Cross Product (X):</strong> A X B = {"{"}1, X{"}"}, {"{"}1, Y{"}"}, {"{"}2, X{"}"}, {"{"}2, Y{"}"}</li>
+                      <li><strong>Power Set (P): </strong>P(A) = {"{"}{"}"}, {"{"}1{"}"}, {"{"}2{"}"}, {"{"}1, 2{"}"}</li>
+                      
+                    </ul>
+
                     <h5>Key terms:</h5>
                     <p>Set, union, intersection, cross product, difference, subset, power set, cardinality, listing, set-builder, empty set</p>
 
