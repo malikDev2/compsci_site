@@ -114,7 +114,25 @@ const DiscII = () => {
                     <p>The amount of possibilities a given scenario has</p>
                     <h5>Key topics: </h5>
                     <ul>
-                      <li></li>
+                      <li>Fundamental Counting Principale</li>
+                      <li>Permutations</li>
+                      <li>Combinations</li>
+                    </ul>
+
+                    <h5>Combinations:</h5>
+                    <ul>
+                      
+                      <li>Amount of ways a scenario can happen in which order does NOT matter.</li>
+                      <li><strong>Notation: </strong>x C y | where x and y are naturals</li>
+                      <li><strong>Computation: </strong> x! / y!(x-y)!</li>
+
+                    </ul>
+
+                    <h5>Permutations:</h5>
+                    <ul>
+                      <li>Amount of ways a scenario can happen in which order DOES matter.</li>
+                      <li><strong>Notation: </strong>x P y | where x and y are naturals</li>
+                      <li><strong>Computation: </strong> x! / (x-y)!</li>
                     </ul>
                   </div>
                 )}
