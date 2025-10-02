@@ -117,6 +117,14 @@ const DiscII = () => {
                       <li>Fundamental Counting Principale</li>
                       <li>Permutations</li>
                       <li>Combinations</li>
+                      <li>Pascal's Triangle</li>
+                      <li>Permutations/Combinations using set operations</li>
+                    </ul>
+
+                    <h5>Fundamental Counting Principale:</h5>
+                    <ul>
+                      <li>If event A has n outcomes and event B has m outcomes, the total number of possible outcomes when both events occur is nxm.</li>
+                      <li>If a resturant offers 5 drinks, 6 entres, and 4 sides, there are a total of 5x6x4 = 120 possible complete orders.</li>
                     </ul>
 
                     <h5>Combinations:</h5>
