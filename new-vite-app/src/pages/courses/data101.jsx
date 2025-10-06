@@ -20,7 +20,7 @@ const DataO = () => {
 
   return (
     <>
-      <h1>Intro to Data Science</h1>
+      <h1>Data 101</h1>
       <div className="language-div">
         
         {/* Description Section */}
@@ -52,7 +52,7 @@ const DataO = () => {
               {/* Unit 1 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit1')}>
-                  <h3 className="subsection-title">Unit 1: [Title]</h3>
+                  <h3 className="subsection-title">Unit 1: Basic Statistics</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit1 ? '▼' : '▶'}
                   </span>
@@ -60,7 +60,21 @@ const DataO = () => {
                 {expandedSections.unit1 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 1 content goes here...]</p>
+                    <p>First introduction to data science through basic statistical concepts.</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>Summary statistics</li>
+                      <li>Hypothesis testing</li>
+                      <li>Normalization</li>
+                      <li>Z-test</li>
+                      <li>T-test</li>
+                      <li>Bonferroni correction</li>
+                      <li>Bayes theorem</li>
+                      <li>P-values</li>
+                      <li>R programming</li>
+                    </ul>
+                    <h5>Key terms:</h5>
+                    <li>Mean, median, standard deviation, one-tail, two-tailed, black swan</li>
                   </div>
                 )}
               </div>
