@@ -124,7 +124,7 @@ const DiscII = () => {
                     <h5>Fundamental Counting Principale:</h5>
                     <ul>
                       <li>If event A has n outcomes and event B has m outcomes, the total number of possible outcomes when both events occur is nxm.</li>
-                      <li>If a resturant offers 5 drinks, 6 entres, and 4 sides, there are a total of 5x6x4 = 120 possible complete orders.</li>
+                      <li>If a resturant offers 5 drinks, 6 entres, and 4 sides, there are a total of +5x6x4 = 120 possible complete orders.</li>
                     </ul>
 
                     <h5>Combinations:</h5>
@@ -149,7 +149,7 @@ const DiscII = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: [Title]</h3>
+                  <h3 className="subsection-title">Unit 3: Probability</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -158,6 +158,27 @@ const DiscII = () => {
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
                     <p>[Unit 3 content goes here...]</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>Basic probability</li>
+                      <li>Probability using and/or</li>
+                      <li>Probability using not</li>
+                      <li>Conditional probability</li>
+                    </ul>
+                    <h5>Probability:</h5>
+                    <ul>
+                      <li>P(x): probability of event X as value from 0 to 1.</li>
+                      <li>P(x∪y): probability of event X or event Y</li>
+                      <li>P(x∩y): probabilty of event X and event Y</li>
+                      <li>P(x | y): probability of event x given event y has happened</li>
+                      <li>P(x'): probability of event X not happening</li>
+                    </ul>
+                    <h5>Solving probability:</h5>
+                    <ul>
+                      <li>P(x∪y): P(x) + P(y) - P(x∩y)</li>
+                      <li>P(x | y): P(x∩y) / P(y)</li>
+                      <li>P(x'): P(U) (which is 1)  - P(x)</li>
+                    </ul>
                   </div>
                 )}
               </div>
