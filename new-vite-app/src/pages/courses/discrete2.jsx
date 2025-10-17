@@ -164,6 +164,7 @@ const DiscII = () => {
                       <li>Probability using and/or</li>
                       <li>Probability using not</li>
                       <li>Conditional probability</li>
+                      <li>Bayesian probability</li>
                     </ul>
                     <h5>Probability:</h5>
                     <ul>
@@ -178,6 +179,11 @@ const DiscII = () => {
                       <li>P(x∪y): P(x) + P(y) - P(x∩y)</li>
                       <li>P(x | y): P(x∩y) / P(y)</li>
                       <li>P(x'): P(U) (which is 1)  - P(x)</li>
+                    </ul>
+                    <h5>Bayesian conditional probability:</h5>
+                    <ul>
+                      <li>P(A|B) = P(B|A)P(A) / P(B)</li>
+                      <li>P(B) = P(B|A)P(A) + P(B|A')P(A')</li>
                     </ul>
                   </div>
                 )}

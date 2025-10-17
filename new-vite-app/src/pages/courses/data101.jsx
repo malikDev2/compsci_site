@@ -98,7 +98,7 @@ const DataO = () => {
               {/* Unit 3 */}
               <div className="subsection">
                 <div className="subsection-header-container" onClick={() => toggleSection('unit3')}>
-                  <h3 className="subsection-title">Unit 3: Probability</h3>
+                  <h3 className="subsection-title">Unit 3: [Title]</h3>
                   <span className="arrow-icon">
                     {expandedSections.unit3 ? '▼' : '▶'}
                   </span>
@@ -107,7 +107,6 @@ const DataO = () => {
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
                     <p>[Unit 3 content goes here...]</p>
-                    <h5>Key topics:</h5>
                   </div>
                 )}
               </div>

@@ -36,7 +36,7 @@ const Cs = () => {
             name: 'Intro to Discrete Structures II', 
             type: 'theory', 
             color: 'rgba(0, 85, 255, 1)', 
-            body: '(In Progress) Second discrete math course, includes further logical topics',
+            body: 'Second discrete math course. Expands on set logic, as well as expanding to counting, probability, and graphs.',
             path: 'discreteII'
         }
     ];
