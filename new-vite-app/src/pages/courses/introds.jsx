@@ -98,6 +98,26 @@ const IntroDS = () => {
                     </ul>
                     <h5>Key terms:</h5>
                     <p>Python, Numpy, Pandas, Matplotlib, Jupyter, function, variable, data type</p>
+
+                    <h5>Numpy library:</h5>
+                    <ul>
+                      <li><strong>Import statement:</strong> import numpy as np</li>
+                      <li><strong>Create Array:</strong> np.array([1,2,3])</li>
+                      <li><strong>Data abstraction from Array: </strong>arr.sum(), arr.mean(), arr.std(), arr.min(), arr.max()</li>
+                    </ul>
+
+                    <h5>Pandas library:</h5>
+                    <ul>
+                      <li><strong>Import statement: </strong>import pandas as pd</li>
+                      <li><strong>Create a Series (1D):</strong> pd.Series(data)</li>
+                      <li><strong>Create a DataFrame (2D table):</strong> pd.DataFrame(data)</li>
+                      <li><strong>Read csv/excel file:</strong> pd.read_csv('fname.csv'), pd.read_excel('fname.excel')</li>
+                      <li><strong>Summarize dataframe: </strong>df.describe()</li>
+                      <li><strong>Select columns: </strong> df['col'], df[['col1'],['col2']]</li>
+                      <li><strong>Select row: </strong>df.loc[2], df.loc[[1,3,5]], df.loc[6:13]</li>
+                      <li><strong>Select row & column: </strong> df.loc[row_label, col_label]</li>
+                    </ul>
+
                   </div>
                 )}
               </div>
