@@ -106,6 +106,14 @@ const IntroDS = () => {
                       <li><strong>Data abstraction from Array: </strong>arr.sum(), arr.mean(), arr.std(), arr.min(), arr.max()</li>
                     </ul>
 
+                    <h5>Numpy library:</h5>
+                    <ul>
+                      <li><strong>Create array: </strong>np.array([1, 2, 3, 4])</li>
+                      <li><strong>Array aggregations:</strong> arr.sum(), arr.mean(), arr.std(), arr.min(), arr.max()</li>
+                      <li><strong>Array summarization: </strong>arr.shape, arr.ndim, arr.size, arr.dtype</li>
+                      <li><strong>Array reshape: </strong>arr.reshape(3,2)</li>
+                    </ul>
+
                     <h5>Pandas library:</h5>
                     <ul>
                       <li><strong>Import statement: </strong>import pandas as pd</li>
@@ -116,7 +124,12 @@ const IntroDS = () => {
                       <li><strong>Select columns: </strong> df['col'], df[['col1'],['col2']]</li>
                       <li><strong>Select row: </strong>df.loc[2], df.loc[[1,3,5]], df.loc[6:13]</li>
                       <li><strong>Select row & column: </strong> df.loc[row_label, col_label]</li>
+                      <li><strong>Modifying Data: </strong>df.drop(), df.rename(), df.replace(), df.astype() </li>
+                      <li><strong>Merging/Joining DataFrames: </strong> pd.concat([df1, df2]), pd.merge(df1, df2, on='key', how='inner'), df.join(other_df)</li>
+                      <li><strong>Handling missing data: </strong> df.isnull(), df.notnull(), df.dropna(), df.fillna(value)</li>
                     </ul>
+
+                    
 
                   </div>
                 )}
