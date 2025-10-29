@@ -8,6 +8,7 @@ const DiscII = () => {
     unit1: false,
     unit2: false,
     unit3: false,
+    unit4: false,
     definitions: false
   });
 
@@ -157,7 +158,7 @@ const DiscII = () => {
                 {expandedSections.unit3 && (
                   <div className="subsection-content">
                     <h4>Main Concept</h4>
-                    <p>[Unit 3 content goes here...]</p>
+                    <p>Unit focused on finding probabilites using various techniques</p>
                     <h5>Key topics:</h5>
                     <ul>
                       <li>Basic probability</li>
@@ -165,6 +166,7 @@ const DiscII = () => {
                       <li>Probability using not</li>
                       <li>Conditional probability</li>
                       <li>Bayesian probability</li>
+                      <li>Mean and Variance of distribution</li>
                     </ul>
                     <h5>Probability:</h5>
                     <ul>
@@ -185,6 +187,38 @@ const DiscII = () => {
                       <li>P(A|B) = P(B|A)P(A) / P(B)</li>
                       <li>P(B) = P(B|A)P(A) + P(B|A')P(A')</li>
                     </ul>
+                    <h5>Distributions:</h5>
+                    <ul>
+                      <li>Finding estimated value E(X):  </li>
+                      <li>Finding estimated value E(X): E(X) = &Sigma;<sub>i=1</sub><sup>n</sup> x<sub>i</sub> p(x<sub>i</sub>)</li>
+                      <li>Finding variance (&sigma;<sup>2</sup>): A - B<sup>2</sup>, A = E(X<sup>2</sup>) = &Sigma;<sub>i=1</sub><sup>n</sup> x<sub>i</sub><sup>2</sup> p(x<sub>i</sub>), B = E(X)</li>
+
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+              <div className="subsection">
+                <div className="subsection-header-container" onClick={() => toggleSection('unit4')}>
+                  <h3 className="subsection-title">Unit 4: Distributions</h3>
+                  <span className="arrow-icon">
+                    {expandedSections.unit3 ? '▼' : '▶'}
+                  </span>
+                </div>
+                {expandedSections.unit4 && (
+                  <div className="subsection-content">
+                    <h4>Main Concept</h4>
+                    <p>Unit on common discrete distributions and techniques for collecting their mean and variance</p>
+                    <h5>Key topics:</h5>
+                    <ul>
+                      <li>Bernulli distrubution</li>
+                      <li>Binomial distribution</li>
+                      <li>Geometric distribution</li>
+                      <li>Estimated Value</li>
+                      <li>Variance</li>
+                      
+                    </ul>
+                    
                   </div>
                 )}
               </div>
